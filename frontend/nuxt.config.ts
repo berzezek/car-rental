@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
+
   app: {
     head: {
       title: 'Car Rental',
@@ -29,6 +30,12 @@ export default defineNuxtConfig({
         { src: '/assets/js/owl.carousel.min.js' },
         { src: '/assets/js/custom.js' },
       ]
+    }
+  },
+  modules: ['@pinia/nuxt'],
+  runtimeConfig: {
+    public: {
+      apiUrl: process.env.NUXT_API_URL
     }
   }
 })
