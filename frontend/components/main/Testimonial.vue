@@ -1,74 +1,169 @@
 <template>
-<section id="clients-say"  class="clients-say">
+  <section class="testimonials section-padding mt-15">
 			<div class="container">
-				<div class="section-header">
-					<h2>what our clients say</h2>
-				</div><!--/.section-header-->
 				<div class="row">
-					<div class="owl-carousel testimonial-carousel">
-						<div class="col-sm-3 col-xs-12">
-							<div class="single-testimonial-box">
-								<div class="testimonial-description">
-									<div class="testimonial-info">
-										<div class="testimonial-img">
-											<img src="/assets/images/clients/c1.png" alt="image of clients person" />
-										</div><!--/.testimonial-img-->
-									</div><!--/.testimonial-info-->
-									<div class="testimonial-comment">
-										<p>
-											Sed ut pers unde omnis iste natus error sit voluptatem accusantium dolor laudan rem aperiam, eaque ipsa quae ab illo inventore verit. 
-										</p>
-									</div><!--/.testimonial-comment-->
-									<div class="testimonial-person">
-										<h2><a href="#">tomas lili</a></h2>
-										<h4>new york</h4>
-									</div><!--/.testimonial-person-->
-								</div><!--/.testimonial-description-->
-							</div><!--/.single-testimonial-box-->
-						</div><!--/.col-->
-						<div class="col-sm-3 col-xs-12">
-							<div class="single-testimonial-box">
-								<div class="testimonial-description">
-									<div class="testimonial-info">
-										<div class="testimonial-img">
-											<img src="/assets/images/clients/c2.png" alt="image of clients person" />
-										</div><!--/.testimonial-img-->
-									</div><!--/.testimonial-info-->
-									<div class="testimonial-comment">
-										<p>
-											Sed ut pers unde omnis iste natus error sit voluptatem accusantium dolor laudan rem aperiam, eaque ipsa quae ab illo inventore verit. 
-										</p>
-									</div><!--/.testimonial-comment-->
-									<div class="testimonial-person">
-										<h2><a href="#">romi rain</a></h2>
-										<h4>london</h4>
-									</div><!--/.testimonial-person-->
-								</div><!--/.testimonial-description-->
-							</div><!--/.single-testimonial-box-->
-						</div><!--/.col-->
-						<div class="col-sm-3 col-xs-12">
-							<div class="single-testimonial-box">
-								<div class="testimonial-description">
-									<div class="testimonial-info">
-										<div class="testimonial-img">
-											<img src="/assets/images/clients/c3.png" alt="image of clients person" />
-										</div><!--/.testimonial-img-->
-									</div><!--/.testimonial-info-->
-									<div class="testimonial-comment">
-										<p>
-											Sed ut pers unde omnis iste natus error sit voluptatem accusantium dolor laudan rem aperiam, eaque ipsa quae ab illo inventore verit. 
-										</p>
-									</div><!--/.testimonial-comment-->
-									<div class="testimonial-person">
-										<h2><a href="#">john doe</a></h2>
-										<h4>washington</h4>
-									</div><!--/.testimonial-person-->
-								</div><!--/.testimonial-description-->
-							</div><!--/.single-testimonial-box-->
-						</div><!--/.col-->
-					</div><!--/.testimonial-carousel-->
-				</div><!--/.row-->
-			</div><!--/.container-->
-
-		</section><!--/.clients-say-->	
+					<div class="col-md-12 text-center mb-30">
+						<div class="section-subtitle">Testimonials</div>
+						<div class="section-title">What Clients Say</div>
+					</div>
+					<div class="col-md-12">
+						<div class="owl-carousel owl-theme">
+							<div class="item">
+								<div class="stars"> <span class="rate">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+									</span>
+									<div class="shap-left-top">
+										<svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+											<path
+												d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+												fill="#ffffff"></path>
+										</svg>
+									</div>
+									<div class="shap-right-bottom">
+										<svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+											<path
+												d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+												fill="#ffffff"></path>
+										</svg>
+									</div>
+								</div> <i class="fa-solid fa-quote-left"></i>
+								<div class="text">
+									<p>Lorem posuere in miss drana en the nisan semere sceriun amiss etiam ornare in the miss drana is
+										lorem fermen nunta urnase mauris in the interdum.</p>
+								</div>
+								<div class="info mt-30">
+									<div class="img-curv">
+										<div class="img"> <img src="/assets/img/team/1.jpg" alt=""> </div>
+										<div class="shap-left-top">
+											<svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+												<path
+													d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+													fill="#ffffff"></path>
+											</svg>
+										</div>
+										<div class="shap-right-bottom">
+											<svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+												<path
+													d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+													fill="#ffffff"></path>
+											</svg>
+										</div>
+									</div>
+									<div class="ml-30">
+										<h6>Dan Martin</h6>
+										<p>Customer</p>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="stars"> <span class="rate">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+									</span>
+									<div class="shap-left-top">
+										<svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+											<path
+												d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+												fill="#ffffff"></path>
+										</svg>
+									</div>
+									<div class="shap-right-bottom">
+										<svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+											<path
+												d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+												fill="#ffffff"></path>
+										</svg>
+									</div>
+								</div> <i class="fa-solid fa-quote-left"></i>
+								<div class="text">
+									<p>Lorem posuere in miss drana en the nisan semere sceriun amiss etiam ornare in the miss drana is
+										lorem fermen nunta urnase mauris in the interdum.</p>
+								</div>
+								<div class="info mt-30">
+									<div class="img-curv">
+										<div class="img"> <img src="/assets/img/team/4.jpg" alt=""> </div>
+										<div class="shap-left-top">
+											<svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+												<path
+													d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+													fill="#ffffff"></path>
+											</svg>
+										</div>
+										<div class="shap-right-bottom">
+											<svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+												<path
+													d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+													fill="#ffffff"></path>
+											</svg>
+										</div>
+									</div>
+									<div class="ml-30">
+										<h6>Olivia Brown</h6>
+										<p>Customer</p>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="stars"> <span class="rate">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+									</span>
+									<div class="shap-left-top">
+										<svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+											<path
+												d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+												fill="#ffffff"></path>
+										</svg>
+									</div>
+									<div class="shap-right-bottom">
+										<svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+											<path
+												d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+												fill="#ffffff"></path>
+										</svg>
+									</div>
+								</div> <i class="fa-solid fa-quote-left"></i>
+								<div class="text">
+									<p>Lorem posuere in miss drana en the nisan semere sceriun amiss etiam ornare in the miss drana is
+										lorem fermen nunta urnase mauris in the interdum.</p>
+								</div>
+								<div class="info mt-30">
+									<div class="img-curv">
+										<div class="img"> <img src="/assets/img/team/6.jpg" alt=""> </div>
+										<div class="shap-left-top">
+											<svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+												<path
+													d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+													fill="#ffffff"></path>
+											</svg>
+										</div>
+										<div class="shap-right-bottom">
+											<svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+												<path
+													d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+													fill="#ffffff"></path>
+											</svg>
+										</div>
+									</div>
+									<div class="ml-30">
+										<h6>Emily Martin</h6>
+										<p>Customer</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 </template>

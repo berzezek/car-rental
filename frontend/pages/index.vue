@@ -1,18 +1,26 @@
 <template>
 	<div>
-
+		<main-about />
+		<div class="line-vr-section"></div>
 		<main-service />
-
-		<main-new-car />
-
-		<main-featured-car :catalogs="catalog.data"/>
-
+		<main-search />
+		<main-cars />
+		<div class="line-vr-section"></div>
+		<main-category />
+		<div class="line-vr-section"></div>
+		<main-process />
+		<main-video />
+		<main-client />
+		<main-testimonial />
+		<div class="line-vr-section"></div>
+		<main-blog />
+		<main-talk />
 	</div>
 </template>
 
 <script setup lang="ts">
-const catalog = useCatalogStore()
+// const catalog = useCatalogStore()
 
-await callOnce(catalog.fetch)
+// await callOnce(catalog.fetch)
 
 </script>

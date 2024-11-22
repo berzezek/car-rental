@@ -1,7 +1,9 @@
 <template>
-  <div>
-    <main-hero />
-    <slot />
-    <main-footer />
-  </div>
+	<main-scroll />
+	<main-navbar />
+	<main-slide />
+	
+	<slot />
+	<main-footer />
+	<main-popup />
 </template>

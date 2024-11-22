@@ -1,115 +1,80 @@
 <template>
-<div class="container">
-	<div class="row">
-		<div class="col-md-12">
-			<div class="model-search-content">
-				<div class="row">
-					<div class="col-md-offset-1 col-md-2 col-sm-12">
-						<div class="single-model-search">
-							<h2>select year</h2>
-							<div class="model-select-icon">
-								<select class="form-control">
-
-										<option value="default">year</option><!-- /.option-->
-
-										<option value="2018">2018</option><!-- /.option-->
-
-										<option value="2017">2017</option><!-- /.option-->
-										<option value="2016">2016</option><!-- /.option-->
-
-								</select><!-- /.select-->
-							</div><!-- /.model-select-icon -->
-						</div>
-						<div class="single-model-search">
-							<h2>body style</h2>
-							<div class="model-select-icon">
-								<select class="form-control">
-
-										<option value="default">style</option><!-- /.option-->
-
-										<option value="sedan">sedan</option><!-- /.option-->
-
-										<option value="van">van</option><!-- /.option-->
-										<option value="roadster">roadster</option><!-- /.option-->
-
-								</select><!-- /.select-->
-							</div><!-- /.model-select-icon -->
-						</div>
-					</div>
-					<div class="col-md-offset-1 col-md-2 col-sm-12">
-						<div class="single-model-search">
-							<h2>select make</h2>
-							<div class="model-select-icon">
-								<select class="form-control">
-
-										<option value="default">make</option><!-- /.option-->
-
-										<option value="toyota">toyota</option><!-- /.option-->
-
-										<option value="holden">holden</option><!-- /.option-->
-										<option value="maecedes-benz">maecedes-benz.</option><!-- /.option-->
-
-								</select><!-- /.select-->
-							</div><!-- /.model-select-icon -->
-						</div>
-						<div class="single-model-search">
-							<h2>car condition</h2>
-							<div class="model-select-icon">
-								<select class="form-control">
-
-										<option value="default">condition</option><!-- /.option-->
-
-										<option value="something">something</option><!-- /.option-->
-
-										<option value="something">something</option><!-- /.option-->
-										<option value="something">something</option><!-- /.option-->
-
-								</select><!-- /.select-->
-							</div><!-- /.model-select-icon -->
-						</div>
-					</div>
-					<div class="col-md-offset-1 col-md-2 col-sm-12">
-						<div class="single-model-search">
-							<h2>select model</h2>
-							<div class="model-select-icon">
-								<select class="form-control">
-
-										<option value="default">model</option><!-- /.option-->
-
-										<option value="kia-rio">kia-rio</option><!-- /.option-->
-
-										<option value="mitsubishi">mitsubishi</option><!-- /.option-->
-										<option value="ford">ford</option><!-- /.option-->
-
-								</select><!-- /.select-->
-							</div><!-- /.model-select-icon -->
-						</div>
-						<div class="single-model-search">
-							<h2>select price</h2>
-							<div class="model-select-icon">
-								<select class="form-control">
-
-										<option value="default">price</option><!-- /.option-->
-
-										<option value="$0.00">$0.00</option><!-- /.option-->
-
-										<option value="$0.00">$0.00</option><!-- /.option-->
-										<option value="$0.00">$0.00</option><!-- /.option-->
-
-								</select><!-- /.select-->
-							</div><!-- /.model-select-icon -->
-						</div>
-					</div>
-					<div class="col-md-2 col-sm-12">
-						<div class="single-model-search text-center">
-							<button class="welcome-btn model-search-btn" onclick="window.location.href='#'">
-								search
-							</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+  <!-- Booking Search -->
+  <section id="bookingseach" data-scroll-index="1" class="background bg-img bg-fixed section-padding"
+    data-overlay-dark="5" data-background="/assets/img/slider/2.jpg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center mb-15">
+          <div class="section-subtitle">Rent Now</div>
+          <div class="section-title white">Book Auto Rental</div>
+        </div>
+      </div>
+      <div class="booking-inner clearfix">
+        <form action="#0" class="form1 brdr clearfix">
+          <div class="col2 c3">
+            <div class="select1_wrapper">
+              <label>Choose Car Type</label>
+              <div class="select1_inner">
+                <select class="select2 select" style="width: 100%">
+                  <option value="0">Choose Car Type</option>
+                  <option value="1">All</option>
+                  <option value="2">Luxury Cars</option>
+                  <option value="3">Sport Cars</option>
+                  <option value="4">SUVs</option>
+                  <option value="5">Convertible</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col2 c4">
+            <div class="select1_wrapper">
+              <label>Pick Up Location</label>
+              <div class="select1_inner">
+                <select class="select2 select" style="width: 100%">
+                  <option value="0">Pick Up Location</option>
+                  <option value="1">Dubai</option>
+                  <option value="2">Abu Dhabi</option>
+                  <option value="3">Sharjah</option>
+                  <option value="4">Alain</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col1 c1">
+            <div class="input1_wrapper">
+              <label>Pick Up Date</label>
+              <div class="input1_inner">
+                <input type="text" class="form-control input datepicker" placeholder="Pick Up Date" required>
+              </div>
+            </div>
+          </div>
+          <div class="col2 c5">
+            <div class="select1_wrapper">
+              <label>Drop Off Location</label>
+              <div class="select1_inner">
+                <select class="select2 select" style="width: 100%">
+                  <option value="0">Drop Off Location</option>
+                  <option value="1">Alain</option>
+                  <option value="2">Sharjah</option>
+                  <option value="3">Abu Dhabi</option>
+                  <option value="4">Dubai</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col1 c2">
+            <div class="input1_wrapper">
+              <label>Return Date</label>
+              <div class="input1_inner">
+                <input type="text" class="form-control input datepicker" placeholder="Return Date">
+              </div>
+            </div>
+          </div>
+          <div class="col3 c6">
+            <button type="submit" class="booking-button">Rent Now</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
 </template>

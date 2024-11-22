@@ -5,5 +5,5 @@ definePageMeta({
 </script>
 
 <template>
-  Only I am protected!
+  <h1>Only I am protected!</h1>
 </template>

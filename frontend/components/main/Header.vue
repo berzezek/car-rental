@@ -1,39 +1,62 @@
 <template>
-	<!-- top-area Start -->
-	<div class="top-area">
-			<div class="header-area">
-				<!-- Start Navigation -->
-				<nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy" data-minus-value-desktop="70"
-					data-minus-value-mobile="55" data-speed="1000">
 
+	<header class="header slider-fade">
+		<div class="owl-carousel owl-theme">
+			<!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9. -->
+			<div class="item bg-img" data-overlay-dark="5" data-background="/assets/img/slider/11.jpg">
+				<div class="v-middle caption">
 					<div class="container">
-
-						<!-- Start Header Navigation -->
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-								<i class="fa fa-bars"></i>
-							</button>
-							<a class="navbar-brand" href="index.html">carvilla<span></span></a>
-
-						</div><!--/.navbar-header-->
-						<!-- End Header Navigation -->
-
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
-							<ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-								<li class=" scroll active"><a href="#home">home</a></li>
-								<li class="scroll"><a href="#service">service</a></li>
-								<li class="scroll"><a href="#featured-cars">featured cars</a></li>
-								<li class="scroll"><a href="#new-cars">new cars</a></li>
-								<li class="scroll"><a href="#brand">brands</a></li>
-								<li class="scroll"><a href="#contact">contact</a></li>
-							</ul><!--/.nav -->
-						</div><!-- /.navbar-collapse -->
-					</div><!--/.container-->
-				</nav><!--/nav-->
-				<!-- End Navigation -->
-			</div><!--/.header-area-->
-			<div class="clearfix"></div>
-
-		</div><!-- /.top-area-->
+						<div class="row">
+							<div class="col-lg-12 col-md-12 mb-30">
+								<div class="v-middle">
+									<h6>* Premium</h6>
+									<h1>Rental Car</h1>
+									<h5>Bentley Bentayga <span>$600 <i>/ day</i></span></h5> <a href="#0"
+										class="button-1 mt-15 mb-15">View Details <span class="ti-arrow-top-right"></span></a> <a href="#"
+										data-scroll-nav="1" class="button-2 mt-15 mb-15">Rent Now <span
+											class="ti-arrow-top-right"></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item bg-img" data-overlay-dark="5" data-background="/assets/img/slider/12.jpg">
+				<div class="v-middle caption">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12 col-md-12 mb-30">
+								<div class="v-middle">
+									<h6>* Premium</h6>
+									<h1>Rental Car</h1>
+									<h5>Rolls Royce Cullinan <span>$900 <i>/ day</i></span></h5> <a href="#0"
+										class="button-1 mt-15 mb-15">View Details <span class="ti-arrow-top-right"></span></a> <a href="#"
+										data-scroll-nav="1" class="button-2 mt-15 mb-15">Rent Now <span
+											class="ti-arrow-top-right"></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item bg-img" data-overlay-dark="5" data-background="/assets/img/slider/14.jpg">
+				<div class="v-middle caption">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12 col-md-12 mb-30">
+								<div class="v-middle">
+									<h6>* Premium</h6>
+									<h1>Rental Car</h1>
+									<h5>Audi RS7 Sportback <span>$450 <i>/ day</i></span></h5> <a href="#0"
+										class="button-1 mt-15 mb-15">View Details <span class="ti-arrow-top-right"></span></a> <a href="#"
+										data-scroll-nav="1" class="button-2 mt-15 mb-15">Rent Now <span
+											class="ti-arrow-top-right"></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
 </template>

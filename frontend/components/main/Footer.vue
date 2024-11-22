@@ -1,106 +1,103 @@
 <template>
-<footer id="contact"  class="contact">
-			<div class="container">
-				<div class="footer-top">
-					<div class="row">
-						<div class="col-md-3 col-sm-6">
-							<div class="single-footer-widget">
-								<div class="footer-logo">
-									<a href="index.html">carvilla</a>
-								</div>
-								<p>
-									Ased do eiusm tempor incidi ut labore et dolore magnaian aliqua. Ut enim ad minim veniam.
-								</p>
-								<div class="footer-contact">
-									<p>info@themesine.com</p>
-									<p>+1 (885) 2563154554</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-6">
-							<div class="single-footer-widget">
-								<h2>about devloon</h2>
-								<ul>
-									<li><a href="#">about us</a></li>
-									<li><a href="#">career</a></li>
-									<li><a href="#">terms <span> of service</span></a></li>
-									<li><a href="#">privacy policy</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-3 col-xs-12">
-							<div class="single-footer-widget">
-								<h2>top brands</h2>
-								<div class="row">
-									<div class="col-md-7 col-xs-6">
-										<ul>
-											<li><a href="#">BMW</a></li>
-											<li><a href="#">lamborghini</a></li>
-											<li><a href="#">camaro</a></li>
-											<li><a href="#">audi</a></li>
-											<li><a href="#">infiniti</a></li>
-											<li><a href="#">nissan</a></li>
-										</ul>
-									</div>
-									<div class="col-md-5 col-xs-6">
-										<ul>
-											<li><a href="#">ferrari</a></li>
-											<li><a href="#">porsche</a></li>
-											<li><a href="#">land rover</a></li>
-											<li><a href="#">aston martin</a></li>
-											<li><a href="#">mersedes</a></li>
-											<li><a href="#">opel</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-offset-1 col-md-3 col-sm-6">
-							<div class="single-footer-widget">
-								<h2>news letter</h2>
-								<div class="footer-newsletter">
-									<p>
-										Subscribe to get latest news  update and informations
-									</p>
-								</div>
-								<div class="hm-foot-email">
-									<div class="foot-email-box">
-										<input type="text" class="form-control" placeholder="Add Email">
-									</div><!--/.foot-email-box-->
-									<div class="foot-email-subscribe">
-										<span><i class="fa fa-arrow-right"></i></span>
-									</div><!--/.foot-email-icon-->
-								</div><!--/.hm-foot-email-->
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="footer-copyright">
-					<div class="row">
-						<div class="col-sm-6">
-							<p>
-								&copy; copyright.designed and developed by <a href="https://www.themesine.com/">themesine</a>.
-							</p><!--/p-->
-						</div>
-						<div class="col-sm-6">
-							<div class="footer-social">
-								<a href="#"><i class="fa fa-facebook"></i></a>	
-								<a href="#"><i class="fa fa-instagram"></i></a>
-								<a href="#"><i class="fa fa-linkedin"></i></a>
-								<a href="#"><i class="fa fa-pinterest-p"></i></a>
-								<a href="#"><i class="fa fa-behance"></i></a>	
-							</div>
-						</div>
-					</div>
-				</div><!--/.footer-copyright-->
-			</div><!--/.container-->
-
-			<div id="scroll-Top">
-				<div class="return-to-top">
-					<i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
-				</div>
-				
-			</div><!--/.scroll-Top-->
-			
-        </footer><!--/.contact-->
+  <!-- Footer -->
+  <footer class="footer clearfix">
+    <div class="container">
+      <!-- first footer -->
+      <div class="first-footer">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="links dark footer-contact-links">
+              <div class="footer-contact-links-wrapper">
+                <div class="footer-contact-link-wrapper">
+                  <div class="image-wrapper footer-contact-link-icon">
+                    <div class="icon-footer"> <i class="flaticon-phone-call"></i> </div>
+                  </div>
+                  <div class="footer-contact-link-content">
+                    <h6>Call us</h6>
+                    <p>+971 52-333-4444</p>
+                  </div>
+                </div>
+                <div class="footer-contact-links-divider"></div>
+                <div class="footer-contact-link-wrapper">
+                  <div class="image-wrapper footer-contact-link-icon">
+                    <div class="icon-footer"> <i class="omfi-envelope"></i> </div>
+                  </div>
+                  <div class="footer-contact-link-content">
+                    <h6>Write to us</h6>
+                    <p>info@renax.com</p>
+                  </div>
+                </div>
+                <div class="footer-contact-links-divider"></div>
+                <div class="footer-contact-link-wrapper">
+                  <div class="image-wrapper footer-contact-link-icon">
+                    <div class="icon-footer"> <i class="omfi-location"></i> </div>
+                  </div>
+                  <div class="footer-contact-link-content">
+                    <h6>Address</h6>
+                    <p>Dubai, Water Tower, Office 123</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- second footer -->
+      <div class="second-footer">
+        <div class="row">
+          <!-- about & social icons -->
+          <div class="col-md-4 widget-area">
+            <div class="widget clearfix">
+              <div class="footer-logo"><img src="/assets/img/logo-light.png" alt=""></div>
+              <!-- <div class="footer-logo"><h2>CARE<span>X</span></h2></div> -->
+              <div class="widget-text">
+                <p>Rent a car imperdiet sapien porttito the bibenum ellentesue the commodo erat nesuen.</p>
+                <div class="social-icons">
+                  <ul class="list-inline">
+                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- quick links -->
+          <div class="col-md-3 offset-md-1 widget-area">
+            <div class="widget clearfix usful-links">
+              <h3 class="widget-title">Quick Links</h3>
+              <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cars.html">Cars</a></li>
+                <li><a href="car-types.html">Car Types</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- subscribe -->
+          <div class="col-md-4 widget-area">
+            <div class="widget clearfix">
+              <h3 class="widget-title">Subscribe</h3>
+              <p>Want to be notified about our services. Just sign up and we'll send you a notification by email.</p>
+              <div class="widget-newsletter">
+                <form action="#">
+                  <input type="email" placeholder="Email Address" required>
+                  <button type="submit"><i class="ti-arrow-top-right"></i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- bottom footer -->
+      <div class="bottom-footer-text">
+        <div class="row copyright">
+          <div class="col-md-12">
+            <p class="mb-0">&copy;2024 <a href="#">DuruThemes</a>. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </template>

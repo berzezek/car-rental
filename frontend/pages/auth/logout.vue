@@ -1,7 +1,6 @@
 <script setup lang="ts">
 definePageMeta({
   auth: { unauthenticatedOnly: false, navigateAuthenticatedTo: '/' },
-  layout: 'login',
 })
 const runtimeConfig = useRuntimeConfig()
 
