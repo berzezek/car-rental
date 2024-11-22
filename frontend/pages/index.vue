@@ -1,5 +1,7 @@
 <template>
 	<div>
+		<main-slide />
+
 		<main-about />
 		<div class="line-vr-section"></div>
 		<main-service />
@@ -8,7 +10,7 @@
 		<div class="line-vr-section"></div>
 		<main-category />
 		<div class="line-vr-section"></div>
-		<main-process />
+		<main-progress />
 		<main-video />
 		<main-client />
 		<main-testimonial />

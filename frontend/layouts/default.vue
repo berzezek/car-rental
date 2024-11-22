@@ -1,9 +1,10 @@
 <template>
-	<main-scroll />
-	<main-navbar />
-	<main-slide />
-	
-	<slot />
-	<main-footer />
-	<main-popup />
+	<div>
+		<main-scroll />
+		<main-navbar />
+
+		<slot />
+		<main-footer />
+		<main-popup />
+	</div>
 </template>
