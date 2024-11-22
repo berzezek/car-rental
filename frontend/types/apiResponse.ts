@@ -23,7 +23,7 @@ export interface Category {
 
 export interface Vehicle {
   id: number;
-  photos: Photo[];
+  photos?: Photo[];
   options: Options;
   price: number;
   status: string;

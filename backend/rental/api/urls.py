@@ -9,6 +9,4 @@ router.register(r'vehicles', views.VehicleViewSet)
 router.register(r'drivers', views.DriverViewSet)
 router.register(r'orders', views.OrderViewSet)
 
-urlpatterns = [
-    path('', include(router.urls)),
-]
+urlpatterns = router.urls

@@ -10,7 +10,7 @@ export const useCatalogStore = defineStore('catalogStore', {
         const { public: { apiUrl } } = useRuntimeConfig()
         
         // Указываем тип ответа API как Vehicle[]
-        const vehicles = await $fetch<Vehicle[]>(`${apiUrl}vehicles/`)
+        const vehicles = await $fetch<Vehicle[]>(`${apiUrl}api/v1/vehicles/`)
 
         this.data = vehicles
       } catch (error) {

@@ -11,7 +11,7 @@
 						<div class="single-featured-cars">
 							<div class="featured-img-box">
 								<div class="featured-cars-img">
-									<img :src="catalog.photos[0].original_photo" :alt="catalog.options.brand">
+									<img :src="catalog.photos[0]?.original_photo" :alt="catalog.options.brand">
 								</div>
 								<div class="featured-model-info">
 									<p>

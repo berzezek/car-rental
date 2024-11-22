@@ -32,10 +32,42 @@ export default defineNuxtConfig({
       ]
     }
   },
-  modules: ['@pinia/nuxt'],
+  modules: ['@pinia/nuxt', '@sidebase/nuxt-auth'],
   runtimeConfig: {
     public: {
-      apiUrl: process.env.NUXT_API_URL
+      apiUrl: process.env.NUXT_API_URL,
+      v1: process.env.NUXT_API_URL + 'api/v1',
+      refresh: process.env.NUXT_AUTH_REFRESH_NAME,
+      access: process.env.NUXT_AUTH_ACCESS_NAME,      
     }
-  }
+  },
+  auth: {
+    baseURL: process.env.NUXT_API_URL,
+    provider: {
+      type: 'local',
+      endpoints: {
+        signIn: { path: 'api/token/', method: 'post' },
+        signOut: false,
+        getSession: { path: 'api/session/', method: 'get' },
+      },
+      token: {
+        signInResponseTokenPointer: '/access',
+        cookieName: process.env.NUXT_AUTH_ACCESS_NAME,
+        maxAgeInSeconds: 1800,
+      },
+      refresh: {
+        isEnabled: true,
+        endpoint: { path: 'api/token/refresh/', method: 'post' },
+        token: {
+          signInResponseRefreshTokenPointer: '/refresh',
+          refreshRequestTokenPointer: '/refresh',
+          maxAgeInSeconds: 1800,
+          cookieName: process.env.NUXT_AUTH_REFRESH_NAME,
+        },
+      },
+      pages: {
+        login: '/auth/login'
+      },
+    },
+  },
 })
