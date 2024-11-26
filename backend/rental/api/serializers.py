@@ -1,5 +1,11 @@
 from rest_framework import serializers
-from rental.models import VehiclePhoto, VehicleCategory, Vehicle, Driver, Order
+from rental.models import (
+    VehiclePhoto, 
+    VehicleCategory, 
+    Vehicle, 
+    Driver, 
+    Order
+)
 
 
 class VehiclePhotoSerializer(serializers.ModelSerializer):
@@ -13,11 +19,10 @@ class VehicleCategorySerializer(serializers.ModelSerializer):
         model = VehicleCategory
         fields = '__all__'
 
-
 class VehicleSerializer(serializers.ModelSerializer):
     photos = VehiclePhotoSerializer(many=True, read_only=True)
-    category_data = VehicleCategorySerializer(source='category', read_only=True)  # Сериализация данных категории
-    price = serializers.DecimalField(max_digits=10, decimal_places=2, coerce_to_string=False)  # Цена
+    category_data = VehicleCategorySerializer(source='category', read_only=True)
+    price = serializers.DecimalField(max_digits=10, decimal_places=2, coerce_to_string=False)
 
     class Meta:
         model = Vehicle

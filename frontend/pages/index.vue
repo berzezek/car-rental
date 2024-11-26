@@ -1,11 +1,10 @@
 <template>
 	<div>
 		<main-slide />
-
 		<main-about />
 		<main-service />
 		<main-search />
-		<main-cars />
+		<main-cars :cars="catalogs" />
 		<main-category />
 		<main-process />
 		<main-video />
@@ -17,8 +16,8 @@
 </template>
 
 <script setup lang="ts">
-// const catalog = useCatalogStore()
+const catalogs = useCatalogStore()
 
-// await callOnce(catalog.fetch)
+await callOnce(catalogs.fetch)
 
 </script>

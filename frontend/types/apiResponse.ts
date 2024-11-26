@@ -7,12 +7,7 @@ export interface Photo {
 }
 
 export interface Options {
-  brand: string;
-  model: string;
-  year: number;
-  number_seats: number;
-  engine: string;
-  lager_bags: number;
+  [key: string]: string | number | boolean;
 }
 
 export interface Category {
@@ -23,9 +18,11 @@ export interface Category {
 
 export interface Vehicle {
   id: number;
+  category_data: Category;
+  brand: string;
+  model: string;
   photos?: Photo[];
   options: Options;
   price: number;
   status: string;
-  category_data: Category;
 }
