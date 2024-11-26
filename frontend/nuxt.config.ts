@@ -2,13 +2,27 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: ['@pinia/nuxt', '@sidebase/nuxt-auth'],
+  modules: ['@pinia/nuxt', '@sidebase/nuxt-auth', '@nuxtjs/i18n'],
+  nitro: {
+    preset: 'static',
+    routeRules: {
+      '/**': {
+        headers: {
+          'Cache-Control':
+            'no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0',
+          Pragma: 'no-cache',
+          Expires: '0',
+        },
+      },
+    },
+  },
+  ssr: true,
   runtimeConfig: {
     public: {
       apiUrl: process.env.NUXT_API_URL,
       v1: process.env.NUXT_API_URL + 'api/v1',
       refresh: process.env.NUXT_AUTH_REFRESH_NAME,
-      access: process.env.NUXT_AUTH_ACCESS_NAME,      
+      access: process.env.NUXT_AUTH_ACCESS_NAME,
     }
   },
   // auth
@@ -24,22 +38,31 @@ export default defineNuxtConfig({
       token: {
         signInResponseTokenPointer: '/access',
         cookieName: process.env.NUXT_AUTH_ACCESS_NAME,
-        maxAgeInSeconds: 1800,
+        maxAgeInSeconds: 60 * 4,
       },
       refresh: {
         isEnabled: true,
         endpoint: { path: 'api/token/refresh/', method: 'post' },
+        // refreshOnlyToken: true,
         token: {
           signInResponseRefreshTokenPointer: '/refresh',
-          refreshRequestTokenPointer: '/refresh',
-          maxAgeInSeconds: 1800,
+          refreshRequestTokenPointer: '/access',
           cookieName: process.env.NUXT_AUTH_REFRESH_NAME,
-        },
+          maxAgeInSeconds: 60 * 4,
+          sameSiteAttribute: 'lax',
+          secureCookieAttribute: false,
+          // cookieDomain: 'sidebase.io',
+          httpOnlyCookieAttribute: false,
+        }
       },
       pages: {
         login: '/auth/login'
       },
     },
+    sessionRefresh: {
+      enablePeriodically: true,
+      enableOnWindowFocus: true,
+    }
   },
   // app
   app: {
@@ -75,4 +98,20 @@ export default defineNuxtConfig({
       ]
     }
   },
+  i18n: {
+    langDir: 'locales',
+    locales: [
+      { code: 'en', language: 'en-US', files: [{ path: 'navbar/en.json' }, { path: 'about/en.json' }, { path: 'footer/en.json' }, { path: 'slide/en.json' }, { path: 'service/en.json' }, { path: 'search/en.json' }] },
+      // { code: 'ru', language: 'ru-RU', files: [{ path: '/lang/ru.json' }] },
+      // { code: 'ua', language: 'uk-UA', files: [{ path: '/lang/ua.json' }] },
+      // { code: 'ar', language: 'ar-SA', files: [{ path: '/lang/ar.json' }] },
+    ],
+    defaultLocale: 'en',
+    lazy: true,
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root',
+    },
+  }
 })

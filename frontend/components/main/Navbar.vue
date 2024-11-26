@@ -4,8 +4,7 @@
     <div class="container">
       <!-- Logo -->
       <div class="logo-wrapper">
-        <a class="logo" href="index.html"> <img src="/assets/img/logo-light.png" class="logo-img" alt=""> </a>
-        <!-- <a class="logo" href="index.html"><h2>Renta<span>x</span></h2></a> -->
+        <nuxt-link class="logo" to="/"><h2>{{ $t('company_title' )}}</h2></nuxt-link>
       </div>
       <!-- Button -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
@@ -14,21 +13,31 @@
       <!-- Menu -->
       <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link active" href="#" data-scroll-nav="0">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="1">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="2">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="3">Cars</a></li>
-          <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="4">Car Types</a></li>
-          <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="5">Process</a></li>
-          <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="6">Blog</a></li>
-          <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="7">Contact</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#" data-scroll-nav="0">{{ $t('home') }}</a></li>
+          <li class="nav-item"><a class="nav-link" href="/#about" data-scroll-nav="1">{{ $t('about') }}</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="2">{{ $t('services') }}</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="3">{{ $t('cars') }}</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="4">{{ $t('car_types') }}</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="5">{{ $t('process') }}</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="6">{{ $t('blog')}}</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="7">{{ $t('contact')}}</a></li>
+          <li class="nav-item dropdown"> 
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+              <i class="ti-angle-down">
+                &#160;<img src="/assets/img/lang/translate.png" width="16px" alt="translate" />
+              </i>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item"><span><img src="/assets/img/lang/united-kingdom.png" alt="uk" @click="setLocale('en')"/>&#160;&#160;&#160;English</span></a></li>
+            </ul>
+          </li>
         </ul>
         <div class="navbar-right">
           <div class="wrap">
             <div class="icon"> <i class="flaticon-phone-call"></i> </div>
             <div class="text">
-              <p>Need help?</p>
-              <h5><a href="tel:8551004444">855 100 4444</a></h5>
+              <p>{{ $t('need_help') }}</p>
+              <h5><a href="tel:8551004444">{{ $t('phone_number') }}</a></h5>
             </div>
           </div>
         </div>
@@ -36,3 +45,14 @@
     </div>
   </nav>
 </template>
+
+<script setup lang="ts">
+const { setLocale } = useI18n()
+
+</script>
+
+<style scoped>
+img {
+  width: 24px;
+}
+</style>

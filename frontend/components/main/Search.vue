@@ -5,76 +5,101 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center mb-15">
-          <div class="section-subtitle">Rent Now</div>
-          <div class="section-title white">Book Auto Rental</div>
+          <div class="section-subtitle">{{ $t('rent_now') }}</div>
+          <div class="section-title white">{{ $t('book_auto_rental') }}</div>
         </div>
       </div>
       <div class="booking-inner clearfix">
         <form action="#0" class="form1 brdr clearfix">
           <div class="col2 c3">
             <div class="select1_wrapper">
-              <label>Choose Car Type</label>
+              <label>{{ $t('choose_car_type') }}</label>
               <div class="select1_inner">
-                <select class="select2 select" style="width: 100%">
-                  <option value="0">Choose Car Type</option>
-                  <option value="1">All</option>
-                  <option value="2">Luxury Cars</option>
-                  <option value="3">Sport Cars</option>
-                  <option value="4">SUVs</option>
-                  <option value="5">Convertible</option>
+                <select ref="carTypeSelect" class="select2 select" style="width: 100%">
+                  <option value="0">{{ $t('choose_car_type') }}</option>
+                  <option value="1">{{ $t('all') }}</option>
+                  <option value="2">{{ $t('luxury_cars') }}</option>
+                  <option value="3">{{ $t('sport_cars') }}</option>
+                  <option value="4">{{ $t('suvs') }}</option>
+                  <option value="5">{{ $t('convertible') }}</option>
                 </select>
               </div>
             </div>
           </div>
           <div class="col2 c4">
             <div class="select1_wrapper">
-              <label>Pick Up Location</label>
+              <label>{{ $t('pick_up_location') }}</label>
               <div class="select1_inner">
-                <select class="select2 select" style="width: 100%">
-                  <option value="0">Pick Up Location</option>
-                  <option value="1">Dubai</option>
-                  <option value="2">Abu Dhabi</option>
-                  <option value="3">Sharjah</option>
-                  <option value="4">Alain</option>
+                <select ref="pickUpLocationSelect" class="select2 select" style="width: 100%">
+                  <option value="0">{{ $t('pick_up_location') }}</option>
+                  <option value="1">{{ $t('dubai') }}</option>
+                  <option value="2">{{ $t('abu_dhabi') }}</option>
+                  <option value="3">{{ $t('sharjah') }}</option>
+                  <option value="4">{{ $t('alain') }}</option>
                 </select>
               </div>
             </div>
           </div>
           <div class="col1 c1">
             <div class="input1_wrapper">
-              <label>Pick Up Date</label>
+              <label>{{ $t('pick_up_date') }}</label>
               <div class="input1_inner">
-                <input type="text" class="form-control input datepicker" placeholder="Pick Up Date" required>
+                <input type="text" class="form-control input datepicker" :placeholder="$t('pick_up_date')" required>
               </div>
             </div>
           </div>
           <div class="col2 c5">
             <div class="select1_wrapper">
-              <label>Drop Off Location</label>
+              <label>{{ $t('drop_off_location') }}</label>
               <div class="select1_inner">
-                <select class="select2 select" style="width: 100%">
-                  <option value="0">Drop Off Location</option>
-                  <option value="1">Alain</option>
-                  <option value="2">Sharjah</option>
-                  <option value="3">Abu Dhabi</option>
-                  <option value="4">Dubai</option>
+                <select ref="dropOffLocationSelect" class="select2 select" style="width: 100%">
+                  <option value="0">{{ $t('drop_off_location') }}</option>
+                  <option value="1">{{ $t('alain') }}</option>
+                  <option value="2">{{ $t('sharjah') }}</option>
+                  <option value="3">{{ $t('abu_dhabi') }}</option>
+                  <option value="4">{{ $t('dubai') }}</option>
                 </select>
               </div>
             </div>
           </div>
           <div class="col1 c2">
             <div class="input1_wrapper">
-              <label>Return Date</label>
+              <label>{{ $t('return_date') }}</label>
               <div class="input1_inner">
-                <input type="text" class="form-control input datepicker" placeholder="Return Date">
+                <input type="text" class="form-control input datepicker" :placeholder="$t('return_date')">
               </div>
             </div>
           </div>
           <div class="col3 c6">
-            <button type="submit" class="booking-button">Rent Now</button>
+            <button type="submit" class="booking-button">{{ $t('rent_now') }}</button>
           </div>
         </form>
       </div>
     </div>
   </section>
 </template>
+
+<script setup lang="ts">
+const { t } = useI18n();
+
+const carTypeSelect = ref(null);
+const pickUpLocationSelect = ref(null);
+const dropOffLocationSelect = ref(null);
+
+const initSelect2 = () => {
+  if (carTypeSelect.value) $(carTypeSelect.value).select2();
+  if (pickUpLocationSelect.value) $(pickUpLocationSelect.value).select2();
+  if (dropOffLocationSelect.value) $(dropOffLocationSelect.value).select2();
+};
+
+onMounted(() => {
+  initSelect2();
+});
+
+watch(
+  () => t('choose_car_type'),
+  () => {
+    initSelect2();
+  }
+);
+</script>

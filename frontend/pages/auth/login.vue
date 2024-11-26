@@ -1,6 +1,7 @@
 <script setup lang="ts">
 definePageMeta({
   auth: { unauthenticatedOnly: true, navigateAuthenticatedTo: '/' },
+  layout: 'custom',
 })
 
 const { signIn } = useAuth()
@@ -18,7 +19,7 @@ const login = async () => {
     await signIn({
       username: 'foo',
       password: 'bar',
-    }, { callbackUrl: route.query.redirect as string || '/' });
+    },);
   } catch (error) {
     // Лог ошибок при логине
     console.error('Login failed:', error);

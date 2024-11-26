@@ -6,25 +6,23 @@
       <div class="row">
         <div class="col-lg-6 col-md-12 mb-30">
           <div class="content">
-            <div class="section-subtitle">Rentax</div>
-            <div class="section-title">We Are More Than <span>A Car Rental Company</span></div>
-            <p class="mb-30">Car repair quisque sodales dui ut varius vestibulum drana tortor turpis porttiton tellus eu
-              euismod nisl massa nutodio in the miss volume place urna lacinia eros nunta urna mauris vehicula rutrum in
-              the miss on volume interdum.</p>
+            <div class="section-subtitle">{{ $t('company_title') }}</div>
+            <div class="section-title">{{ $t('company_subtitle_1') }} <span>{{ $t('company_subtitle_2') }}</span></div>
+            <p class="mb-30">{{ $t('company_subtitle_3') }}</p>
             <ul class="list-unstyled list mb-30">
               <li>
                 <div class="list-icon"> <span class="ti-check"></span> </div>
                 <div class="list-text">
-                  <p>Sports and Luxury Cars</p>
+                  <p>{{ $t('commercial_vehicles') }}</p>
                 </div>
               </li>
               <li>
                 <div class="list-icon"> <span class="ti-check"></span> </div>
                 <div class="list-text">
-                  <p>Economy Cars</p>
+                  <p>{{ $t('passenger_vehicles') }}</p>
                 </div>
               </li>
-            </ul> <a href="about.html" class="button-4">Read More <span class="ti-arrow-top-right"></span></a>
+            </ul> <a href="about.html" class="button-4">{{ $t('read_more') }}<span class="ti-arrow-top-right"></span></a>
           </div>
         </div>
         <div class="col-lg-5 offset-lg-1 col-md-12">
