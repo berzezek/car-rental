@@ -1,6 +1,6 @@
 <template>
   <!-- Footer -->
-  <footer class="footer clearfix">
+  <footer class="footer clearfix" id="contact">
     <div class="container">
       <!-- first footer -->
       <div class="first-footer">

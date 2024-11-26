@@ -1,5 +1,5 @@
 <template>
-  <!-- Video -->
+	<!-- Video -->
 	<section class="video-wrapper video section-padding bg-img bg-fixed" data-overlay-dark="4"
 		data-background="/assets/img/slider/1.jpg">
 		<div class="container">

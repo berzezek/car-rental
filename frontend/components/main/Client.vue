@@ -28,6 +28,9 @@
             <div class="clients-logo">
               <a href="#0"><img src="/assets/img/clients/8.png" alt=""></a>
             </div>
+            <div class="clients-logo">
+              <a href="#0"><img src="/assets/img/clients/9.png" alt=""></a>
+            </div>
           </div>
         </div>
       </div>

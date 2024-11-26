@@ -3,18 +3,14 @@
 		<main-slide />
 
 		<main-about />
-		<div class="line-vr-section"></div>
 		<main-service />
 		<main-search />
 		<main-cars />
-		<div class="line-vr-section"></div>
 		<main-category />
-		<div class="line-vr-section"></div>
-		<main-progress />
+		<main-process />
 		<main-video />
 		<main-client />
 		<main-testimonial />
-		<div class="line-vr-section"></div>
 		<main-blog />
 		<main-talk />
 	</div>

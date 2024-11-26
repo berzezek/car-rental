@@ -101,7 +101,7 @@ export default defineNuxtConfig({
   i18n: {
     langDir: 'locales',
     locales: [
-      { code: 'en', language: 'en-US', files: [{ path: 'navbar/en.json' }, { path: 'about/en.json' }, { path: 'footer/en.json' }, { path: 'slide/en.json' }, { path: 'service/en.json' }, { path: 'search/en.json' }] },
+      { code: 'en', language: 'en-US', files: [{ path: 'navbar/en.json' }, { path: 'about/en.json' }, { path: 'footer/en.json' }, { path: 'slide/en.json' }, { path: 'service/en.json' }, { path: 'search/en.json' }, { path: 'process/en.json' },  { path: 'talk/en.json' }] },
       // { code: 'ru', language: 'ru-RU', files: [{ path: '/lang/ru.json' }] },
       // { code: 'ua', language: 'uk-UA', files: [{ path: '/lang/ua.json' }] },
       // { code: 'ar', language: 'ar-SA', files: [{ path: '/lang/ar.json' }] },

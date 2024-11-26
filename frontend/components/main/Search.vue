@@ -82,13 +82,17 @@
 <script setup lang="ts">
 const { t } = useI18n();
 
+
 const carTypeSelect = ref(null);
 const pickUpLocationSelect = ref(null);
 const dropOffLocationSelect = ref(null);
 
 const initSelect2 = () => {
+  // @ts-ignore
   if (carTypeSelect.value) $(carTypeSelect.value).select2();
+  // @ts-ignore
   if (pickUpLocationSelect.value) $(pickUpLocationSelect.value).select2();
+  // @ts-ignore
   if (dropOffLocationSelect.value) $(dropOffLocationSelect.value).select2();
 };
 

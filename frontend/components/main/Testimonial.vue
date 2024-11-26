@@ -1,5 +1,6 @@
 <template>
-  <section class="testimonials section-padding mt-15">
+	<div>
+		<section class="testimonials section-padding mt-15">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 text-center mb-30">
@@ -166,4 +167,6 @@
 				</div>
 			</div>
 		</section>
+		<div class="line-vr-section"></div>
+	</div>
 </template>
