@@ -67,6 +67,7 @@ export default defineNuxtConfig({
   // app
   app: {
     baseURL: '/',
+    pageTransition: { name: 'page', mode: 'out-in' },
     head: {
       title: 'Car Rental',
       charset: 'utf-8',
@@ -101,10 +102,10 @@ export default defineNuxtConfig({
   i18n: {
     langDir: 'locales',
     locales: [
-      { code: 'en', language: 'en-US', files: [{ path: 'navbar/en.json' }, { path: 'about/en.json' }, { path: 'footer/en.json' }, { path: 'slide/en.json' }, { path: 'service/en.json' }, { path: 'search/en.json' }, { path: 'process/en.json' },  { path: 'talk/en.json' }] },
-      // { code: 'ru', language: 'ru-RU', files: [{ path: '/lang/ru.json' }] },
-      // { code: 'ua', language: 'uk-UA', files: [{ path: '/lang/ua.json' }] },
-      // { code: 'ar', language: 'ar-SA', files: [{ path: '/lang/ar.json' }] },
+      { code: 'en', language: 'en-US', name: 'English', files: [{ path: 'navbar/en.json' }, { path: 'about/en.json' }, { path: 'footer/en.json' }, { path: 'slide/en.json' }, { path: 'service/en.json' }, { path: 'search/en.json' }, { path: 'process/en.json' }, { path: 'talk/en.json' }, { path: 'cars/en.json' }, { path: 'faq/en.json' }] },
+      { code: 'ar', language: 'ar-SA', name: 'عربي', files: [{ path: 'navbar/ar.json' }, { path: 'about/ar.json' }, { path: 'footer/ar.json' }, { path: 'slide/ar.json' }, { path: 'service/ar.json' }, { path: 'search/ar.json' }, { path: 'process/ar.json' }, { path: 'talk/ar.json' }, { path: 'cars/ar.json' }, { path: 'faq/ar.json' }] },
+      { code: 'ru', language: 'ru-RU', name: 'Русский', files: [{ path: 'navbar/ru.json' }, { path: 'about/ru.json' }, { path: 'footer/ru.json' }, { path: 'slide/ru.json' }, { path: 'service/ru.json' }, { path: 'search/ru.json' }, { path: 'process/ru.json' }, { path: 'talk/ru.json' }, { path: 'cars/ru.json' }, { path: 'faq/ru.json' }] },
+      { code: 'ua', language: 'ua-UA', name: 'Українська', files: [{ path: 'navbar/ua.json' }, { path: 'about/ua.json' }, { path: 'footer/ua.json' }, { path: 'slide/ua.json' }, { path: 'service/ua.json' }, { path: 'search/ua.json' }, { path: 'process/ua.json' }, { path: 'talk/ua.json' }, { path: 'cars/ua.json' }, { path: 'faq/ua.json' }] },
     ],
     defaultLocale: 'en',
     lazy: true,
@@ -112,6 +113,7 @@ export default defineNuxtConfig({
       useCookie: true,
       cookieKey: 'i18n_redirected',
       redirectOn: 'root',
-    },
+      cookieSecure: false,
+    }
   }
 })

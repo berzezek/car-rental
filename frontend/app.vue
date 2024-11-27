@@ -1,5 +1,58 @@
+<script setup lang="ts">
+const { finalizePendingLocaleChange } = useI18n()
+
+const onBeforeEnter = async () => {
+  await finalizePendingLocaleChange();
+  $(document).ready(function () {
+    //@ts-ignore
+    $('#kenburnsSliderContainer').vegas({
+      slides: [{
+        src: "/assets/img/slider/1.jpg"
+      }, {
+        src: "/assets/img/slider/3.jpg"
+      }, {
+        src: "/assets/img/slider/11.jpg"
+      }],
+      overlay: true,
+      transition: 'fade2',
+      animation: 'kenburnsUpRight',
+      transitionDuration: 1000,
+      delay: 10000,
+      animationDuration: 20000
+    });
+  });
+
+}
+</script>
+
 <template>
-  <nuxt-layout>
-    <nuxt-page />
-  </nuxt-layout>
+  <NuxtLayout>
+    <NuxtPage :transition="{
+      name: 'my',
+      mode: 'out-in',
+      onBeforeEnter
+    }" />
+  </NuxtLayout>
 </template>
+
+<style>
+.my-enter-active,
+.my-leave-active {
+  transition: opacity 0.5s;
+}
+
+.my-enter,
+.my-leave-active {
+  opacity: 0;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.4s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}
+</style>

@@ -1,0 +1,18 @@
+{
+  "rent_now": "استأجر الآن",
+  "book_auto_rental": "احجز تأجير السيارات",
+  "choose_car_type": "اختر نوع السيارة",
+  "all": "الكل",
+  "luxury_cars": "سيارات فاخرة",
+  "sport_cars": "سيارات رياضية",
+  "suvs": "سيارات الدفع الرباعي",
+  "convertible": "سيارات مكشوفة",
+  "pick_up_location": "موقع الاستلام",
+  "dubai": "دبي",
+  "abu_dhabi": "أبو ظبي",
+  "sharjah": "الشارقة",
+  "alain": "العين",
+  "pick_up_date": "تاريخ الاستلام",
+  "drop_off_location": "موقع التسليم",
+  "return_date": "تاريخ الإرجاع"
+}
