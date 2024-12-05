@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<main-loader v-if="isLoading" />
-		<div v-else>
+		<div v-cloak>
 			<div>
 				<main-slide />
 				<main-about />

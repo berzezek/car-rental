@@ -7,12 +7,12 @@ export default defineNuxtConfig({
     preset: 'static',
     routeRules: {
       '/**': {
-        headers: {
-          'Cache-Control':
-            'no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0',
-          Pragma: 'no-cache',
-          Expires: '0',
-        },
+        // headers: {
+        //   'Cache-Control':
+        //     'no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0',
+        //   Pragma: 'no-cache',
+        //   Expires: '0',
+        // },
       },
     },
   },
@@ -43,24 +43,28 @@ export default defineNuxtConfig({
       refresh: {
         isEnabled: true,
         endpoint: { path: 'api/token/refresh/', method: 'post' },
-        // refreshOnlyToken: true,
         token: {
           signInResponseRefreshTokenPointer: '/refresh',
-          refreshRequestTokenPointer: '/access',
+          refreshRequestTokenPointer: '/refresh',
           cookieName: process.env.NUXT_AUTH_REFRESH_NAME,
-          maxAgeInSeconds: 60 * 4,
+          maxAgeInSeconds: 60 * 60 * 24 - 60 * 5,
           sameSiteAttribute: 'lax',
           secureCookieAttribute: false,
-          // cookieDomain: 'sidebase.io',
           httpOnlyCookieAttribute: false,
         }
       },
       pages: {
         login: '/auth/login'
       },
+      session: {
+        dataType: {
+          id: 'string | number',
+          username: 'string',
+          email: 'string',
+        },
+      }
     },
     sessionRefresh: {
-      enablePeriodically: true,
       enableOnWindowFocus: true,
     }
   },
@@ -72,31 +76,6 @@ export default defineNuxtConfig({
       title: 'Car Rental',
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
-      link: [
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap' },
-        { rel: 'stylesheet', href: '/assets/css/plugins.css' },
-        { rel: 'stylesheet', href: '/assets/css/style.css' },
-      ],
-      script: [
-        { src: '/assets/js/jquery-3.7.1.min.js' },
-        { src: '/assets/js/jquery-migrate-3.4.1.min.js' },
-        { src: '/assets/js/modernizr-2.6.2.min.js' },
-        { src: '/assets/js/imagesloaded.pkgd.min.js' },
-        { src: '/assets/js/jquery.isotope.v3.0.2.js' },
-        { src: '/assets/js/popper.min.js' },
-        { src: '/assets/js/bootstrap.min.js' },
-        { src: '/assets/js/scrollIt.min.js' },
-        { src: '/assets/js/jquery.waypoints.min.js' },
-        { src: '/assets/js/owl.carousel.min.js' },
-        { src: '/assets/js/jquery.stellar.min.js' },
-        { src: '/assets/js/jquery.magnific-popup.js' },
-        { src: '/assets/js/select2.js' },
-        { src: '/assets/js/datepicker.js' },
-        { src: '/assets/js/YouTubePopUp.js' },
-        { src: '/assets/js/vegas.slider.min.js' },
-        { src: '/assets/js/custom.js' },
-        { src: '/assets/js/vegas-slider-kenburns.js' },
-      ]
     }
   },
   i18n: {

@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 definePageMeta({
-  middleware: 'auth',
   layout: 'dashboard',
 })
 
@@ -16,10 +15,13 @@ const {
   signOut,
   refresh
 } = useAuth()
+
+if (status.value !== 'authenticated') {
+  navigateTo('/auth/login')
+} 
 </script>
 
 <template>
-  <h1>Only I am protected!</h1>
   <p>{{ data }}</p>
   <p>{{ status }}</p>
   <p>{{ lastRefreshedAt }}</p>
