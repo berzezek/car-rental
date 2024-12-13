@@ -53,16 +53,16 @@
 </template>
 
 <script setup lang="ts">
-import type { Vehicle } from '~/types/apiResponse'
+import type { ApiResponse, Vehicle } from '~/types/apiResponse'
 
 const localeRoute = useLocaleRoute()
 const { locale } = useI18n()
 
 const props = defineProps<{
-  cars: Vehicle[]
+  cars: ApiResponse<Vehicle>
 }>()
 
-const cars = ref(props.cars)
+const cars = ref(props.cars.results)
 
 const carDetail = (id: number) => {
   const route = localeRoute(`/cars/${id}/`, locale.value)

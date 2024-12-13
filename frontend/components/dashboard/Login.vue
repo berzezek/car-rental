@@ -27,6 +27,12 @@
 </template>
 
 <script setup lang="ts">
+definePageMeta({
+  auth: {
+    unauthenticatedOnly: true,
+  }
+})
+
 const username = ref('');
 const password = ref('');
 const errMess = ref('');
@@ -43,7 +49,7 @@ const login = async () => {
     await signIn({
       username: username.value,
       password: password.value,
-    }, { callbackUrl: '/dashboard'});
+    });
   } catch (error) {
     console.error('Login failed:', error);
     errMess.value = 'Login failed';

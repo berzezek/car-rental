@@ -16,13 +16,23 @@ export interface Category {
     description: string;
 }
 
-export interface Vehicle {
-  id: number;
-  category_data: Category;
+export interface VehicleAdd {
+  category: number;
   brand: string;
   model: string;
-  photos?: Photo[];
-  options: Options;
+  body_type: string;
+  options?: Options;
   price: number;
-  status: string;
+}
+
+export interface Vehicle extends VehicleAdd {
+  id: number;
+  photos?: Photo[];
+}
+
+export interface ApiResponse<T> {
+  count: number;
+  next: string;
+  previous: string;
+  results: T[];
 }

@@ -51,7 +51,7 @@ export default defineNuxtConfig({
           sameSiteAttribute: 'lax',
           secureCookieAttribute: false,
           httpOnlyCookieAttribute: false,
-        }
+        },
       },
       pages: {
         login: '/auth/login'
@@ -65,6 +65,7 @@ export default defineNuxtConfig({
       }
     },
     sessionRefresh: {
+      enablePeriodically: 1000 * 60,
       enableOnWindowFocus: true,
     }
   },
