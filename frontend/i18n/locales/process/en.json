@@ -1,11 +1,11 @@
 {
   "steps": "Steps",
   "process": "Process",
-  "choose_a_car": "Choose A Car",
-  "choose_a_car_desc": "View our range of cars, find your perfect car for the coming days.",
-  "come_in_contact": "Come In Contact",
-  "come_in_contact_desc": "Our advisor team is ready to help you with the booking process or any questions.",
-  "enjoy_driving": "Enjoy Driving",
-  "enjoy_driving_desc": "Receive the key and enjoy your car. We treat all our cars with respect.",
-  "process_info": "If you've never rented a car before, we'll guide you through the process."
+  "choose_a_car": "Choose Your Room",
+  "choose_a_car_desc": "Browse our selection of cozy rooms and suites, tailored for your perfect mountain getaway.",
+  "come_in_contact": "Contact Us",
+  "come_in_contact_desc": "Our team is here to assist you with reservations or any questions you may have.",
+  "enjoy_driving": "Enjoy Your Stay",
+  "enjoy_driving_desc": "Relax in the comfort of our resort and indulge in the scenic beauty around you.",
+  "process_info": "If this is your first time visiting Azure Resort, we’ll guide you every step of the way."
 }

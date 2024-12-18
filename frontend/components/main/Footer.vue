@@ -48,15 +48,20 @@
           <!-- about & social icons -->
           <div class="col-md-4 widget-area">
             <div class="widget clearfix">
-              <div class="footer-logo"><h3 class="widget-title">{{ $t('company_title') }}</h3>
+              <div class="footer-logo">
+                <h3 class="widget-title">{{ $t('company_title') }}</h3>
               </div>
               <div class="widget-text">
                 <p>{{ $t('about_description') }}</p>
                 <div class="social-icons">
                   <ul class="list-inline">
-                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="https://wa.me/998947779955" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    </li>
+                    <li><a href="https://www.facebook.com/@azureresort.uz" target="_blank"><i
+                          class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="https://t.me/azureresort" target="_blank"><i
+                          class="fa-brands fa-telegram"></i></a></li>
+                    <!-- <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li> -->
                   </ul>
                 </div>
               </div>
@@ -67,9 +72,9 @@
             <div class="widget clearfix usful-links">
               <h3 class="widget-title">{{ $t('quick_links') }}</h3>
               <ul>
-                <li><a href="about.html">{{ $t('about') }}</a></li>
-                <li><a href="cars.html">{{ $t('cars') }}</a></li>
-                <li><a href="car-types.html">{{ $t('car_types') }}</a></li>
+                <li><a href="/#about">{{ $t('about') }}</a></li>
+                <!-- <li><a href="cars.html">{{ $t('cars') }}</a></li> -->
+                <!-- <li><a href="car-types.html">{{ $t('car_types') }}</a></li> -->
               </ul>
             </div>
           </div>
@@ -99,3 +104,21 @@
     </div>
   </footer>
 </template>
+
+<style scoped>
+.footer {
+  background-color: #28808E;
+  color: #F4BE67 !important;
+}
+
+.footer-contact-link-wrapper p,
+h6,
+.second-footer .widget-area .widget p,
+.footer .widget .widget-title,
+.footer .usful-links ul li a,
+.copyright p,
+.copyright a,
+.social-icons li {
+  color: #F4BE67 !important;
+}
+</style>

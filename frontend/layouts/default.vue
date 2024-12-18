@@ -19,6 +19,14 @@ useHead({
 		},
 		{
 			rel: 'stylesheet',
+			href: '/assets/fonts/stem/stylesheet.css'
+		},
+		{
+			rel: 'stylesheet',
+			href: '/assets/fonts/tt_ramillas/stylesheet.css'
+		},
+		{
+			rel: 'stylesheet',
 			href: '/assets/css/plugins.css'
 		},
 		{

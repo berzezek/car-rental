@@ -7,14 +7,14 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h6>{{ $t('premium') }}</h6>
-              <h1>{{ $t('company_title') }}</h1>
-              <h5>{{ $t('cars_description') }}</h5>
+              <h1>{{ $t('company_title_part1') }} {{ $t('company_title_part2') }}</h1>
+              <!-- <img src="/assets/img/logo-light.png" alt="line" class="mt-15 mb-15" /> -->
+              <h5>{{ $t('company_description') }}</h5>
               <a href="#0" class="button-1 mt-15 mb-15 mr-15">
                 {{ $t('view_details') }}<span class="ti-arrow-top-right"></span>
               </a>
               <a href="#" data-scroll-nav="1" class="button-2 mt-15 mb-15">
-                {{ $t('rent_now') }}<span class="ti-arrow-top-right"></span>
+                {{ $t('order_now') }}<span class="ti-arrow-top-right"></span>
               </a>
             </div>
           </div>

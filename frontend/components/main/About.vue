@@ -23,7 +23,7 @@
                     <p>{{ $t('passenger_vehicles') }}</p>
                   </div>
                 </li>
-              </ul> <a href="about.html" class="button-4">{{ $t('read_more') }}<span
+              </ul> <a href="" class="button-4">{{ $t('read_more') }}<span
                   class="ti-arrow-top-right"></span></a>
             </div>
           </div>

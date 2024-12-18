@@ -1,11 +1,11 @@
 <template>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg" id="top">
+  <nav class="navbar navbar-expand-lg" id="top" v-cloak>
     <div class="container">
       <!-- Logo -->
       <div class="logo-wrapper">
-        <a class="logo" href="/">
-          <h2>{{ $t('company_title') }}</h2>
+        <a class="logo" href="index.html">
+          <h2>{{ $t('company_title_part1') }} <span> {{ $t('company_title_part2') }}</span></h2>
         </a>
       </div>
       <!-- Button -->
@@ -18,7 +18,7 @@
           <li class="nav-item"><a class="nav-link active cursor-pointer" href="/#top">{{ $t('home') }}</a></li>
           <li class="nav-item"><a class="nav-link" href="/#about">{{ $t('about') }}</a></li>
           <!-- <li class="nav-item"><a class="nav-link" href="/#services" data-scroll-nav="2">{{ $t('services') }}</a></li> -->
-          <li class="nav-item"><a class="nav-link" href="/#cars">{{ $t('cars') }}</a></li>
+          <!-- <li class="nav-item"><a class="nav-link" href="/#products">{{ $t('rooms') }}</a></li> -->
           <!-- <li class="nav-item"><a class="nav-link" href="/#car_types" data-scroll-nav="4">{{ $t('car_types') }}</a></li> -->
           <li class="nav-item"><a class="nav-link" href="/#process">{{ $t('process') }}</a></li>
           <li class="nav-item"><a class="nav-link" href="/#contact">{{ $t('contact') }}</a></li>
@@ -26,8 +26,13 @@
             <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside"
               aria-expanded="false">
               <i class="ti-angle-down">
-                &#160;<img :src="currentLang ? `/assets/img/lang/${currentLang}.png`: '/assets/img/lang/translate.png'" width="16px" alt="translate" />
+                &#160;<img :src="`/assets/img/lang/${currentLang}.png`"
+                  width="16px" alt="translate" />
               </i>
+              <!-- <i class="ti-angle-down">
+                &#160;<img :src="currentLang ? `/assets/img/lang/${currentLang}.png` : '/assets/img/lang/translate.png'"
+                  width="16px" alt="translate" />
+              </i> -->
             </a>
             <ul class="dropdown-menu">
               <li v-for="locale in availableLocales" :key="locale.code" @click.prevent.stop="changeLang(locale.code)">
@@ -57,17 +62,21 @@
 const { locale, locales, setLocale } = useI18n()
 const commonStore = useCommonStore()
 
-const currentLang = ref(locale.value)
+const currentLang = ref('translate');
 
 const availableLocales = computed(() => {
   return locales.value.filter(i => i.code !== locale.value)
 })
 
-const changeLang = (lang: 'en' | 'ar' | 'ru' | 'ua') => {
+const changeLang = (lang: 'en' | 'fr' | 'ru' | 'uz') => {
   commonStore.switchLoader(true);
   setLocale(lang);
-  currentLang.value = lang;
   commonStore.switchLoader(false);
+  currentLang.value = lang;
+  // reload page
+  // setTimeout(() => {
+  //   window.location.reload();
+  // }, 100);
 }
 
 </script>
@@ -76,5 +85,9 @@ const changeLang = (lang: 'en' | 'ar' | 'ru' | 'ua') => {
 <style scoped>
 img {
   width: 24px;
+}
+
+.nav-scroll {
+  background-color: #28808E;
 }
 </style>

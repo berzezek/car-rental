@@ -3,7 +3,7 @@ export interface Photo {
   original_photo: string;
   thumbnail: string;
   photo_date: string;
-  vehicle: number;
+  product: number;
 }
 
 export interface Options {
@@ -16,23 +16,23 @@ export interface Category {
     description: string;
 }
 
-export interface VehicleAdd {
+export interface ProductAdd {
   category: number;
-  brand: string;
-  model: string;
-  body_type: string;
-  options?: Options;
+  title: string;
   price: number;
+  options?: Options;
+  is_active?: boolean;
 }
 
-export interface Vehicle extends VehicleAdd {
+export interface Product extends ProductAdd {
   id: number;
   photos?: Photo[];
+  category_data: Category;
 }
 
 export interface ApiResponse<T> {
   count: number;
-  next: string;
-  previous: string;
+  next: string | null;
+  previous: string | null;
   results: T[];
 }

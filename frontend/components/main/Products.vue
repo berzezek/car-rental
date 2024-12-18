@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Cars 3 -->
-    <section id="cars" data-scroll-index="3" class="cars3 section-padding">
+    <section id="products" data-scroll-index="3" class="cars3 section-padding">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center mb-30">
@@ -12,10 +12,10 @@
         <div class="row">
           <div class="col-md-12">
             <div class="owl-theme owl-carousel">
-              <div v-for="car in cars" :key="car.id" class="item mb-15">
+              <div v-for="product in products" :key="product.id" class="item mb-15">
                 <div class="project-date">
                   <a class="br">
-                    <div class="year">${{ car.price }} <span>/ {{ $t('day') }}</span></div>
+                    <div class="year">${{ product.price }} <span>/ {{ $t('day') }}</span></div>
                   </a>
                   <div class="br-left-top">
                     <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
@@ -28,18 +28,18 @@
                     </svg>
                   </div>
                 </div>
-                <a class="img" :href="carDetail(car.id)">
-                  <img :src="car.photos?.[0]?.thumbnail || '/assets/img/placeholder.jpg'" :alt="car.brand"
+                <a class="img" :href="productDetail(product.id)">
+                  <img :src="product.photos?.[0]?.thumbnail || '/assets/img/placeholder.jpg'" :alt="product.title"
                     class="img-fluid">
                   <div class="bottom-fade"></div>
                   <div class="arrow"> <i class="ti-arrow-right"></i> </div>
                 </a>
                 <div class="info">
-                  <div class="title"><a>{{ car.brand }} {{ car.model }}</a></div>
+                  <div class="title"><a>{{ product.title }}</a></div>
                   <div class="details">
-                    <span><i class="omfi-door"></i> {{ car.options?.number_seats || '-' }} {{ $t('seats') }}</span>
-                    <span><i class="omfi-transmission"></i> {{ car.options?.engine || '-' }}</span>
-                    <span><i class="omfi-age"></i> {{ $t('age') }} {{ car.options?.millage || '-' }}</span>
+                    <span><i class="omfi-door"></i> {{ product.options?.number_seats || '-' }} {{ $t('seats') }}</span>
+                    <span><i class="omfi-transmission"></i> {{ product.options?.engine || '-' }}</span>
+                    <span><i class="omfi-age"></i> {{ $t('age') }} {{ product.options?.millage || '-' }}</span>
                   </div>
                 </div>
               </div>
@@ -53,20 +53,21 @@
 </template>
 
 <script setup lang="ts">
-import type { ApiResponse, Vehicle } from '~/types/apiResponse'
+import type { ApiResponse, Product } from '~/types/apiResponse'
 
 const localeRoute = useLocaleRoute()
 const { locale } = useI18n()
 
 const props = defineProps<{
-  cars: ApiResponse<Vehicle>
+  products: ApiResponse<Product>
 }>()
 
-const cars = ref(props.cars.results)
+const products = ref(props.products.results)
 
-const carDetail = (id: number) => {
-  const route = localeRoute(`/cars/${id}/`, locale.value)
-  return route ? route.path : '/'
+const productDetail = (id: number) => {
+  // const route = localeRoute(`/products/${id}/`, locale.value)
+  // return route ? route.path : '/'
+  console.log('productDetail', id)
 }
 
 const initializeCarousel = () => {
@@ -92,7 +93,7 @@ const initializeCarousel = () => {
   }
 }
 
-watch(cars, () => {
+watch(products, () => {
   initializeCarousel()
 })
 

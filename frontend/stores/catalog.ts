@@ -1,48 +1,48 @@
-import type { ApiResponse, Vehicle, VehicleAdd, Category } from "~/types/apiResponse"
+import type { ApiResponse, Product, ProductAdd, Category } from "~/types/apiResponse"
 
 
 export const useCatalogStore = defineStore('catalogStore', {
   state: () => ({
     categories: {} as ApiResponse<Category>,
-    cars: {} as ApiResponse<Vehicle>,
-    car: {} as Vehicle,
+    products: {} as ApiResponse<Product>,
+    product: {} as Product,
   }),
   actions: {
-    async fetchCars() {
+    async fetchProducts() {
       try {
         const { public: { apiUrl } } = useRuntimeConfig()
 
-        const vehicles = await $fetch<ApiResponse<Vehicle>>(`${apiUrl}api/v1/vehicles/`)
+        const items = await $fetch<ApiResponse<Product>>(`${apiUrl}api/v1/products/`)
 
-        this.cars = vehicles
+        this.products = items
       } catch (error) {
-        console.error('Failed to fetch cars:', error)
+        console.error('Failed to fetch products:', error)
       }
     },
     async fetchCategories() {
       try {
         const { public: { apiUrl } } = useRuntimeConfig()
 
-        const categories = await $fetch<ApiResponse<Category>>(`${apiUrl}api/v1/vehicle-categories/`)
+        const categories = await $fetch<ApiResponse<Category>>(`${apiUrl}api/v1/product-categories/`)
 
         this.categories = categories
       } catch (error) {
         console.error('Failed to fetch categories:', error)
       }
     },
-    async fetchCar(id: string) {
+    async fetchProduct(id: string) {
       try {
         const { public: { apiUrl } } = useRuntimeConfig()
 
 
-        const vehicle = await $fetch<Vehicle>(`${apiUrl}api/v1/vehicles/${id}/`)
+        const item = await $fetch<Product>(`${apiUrl}api/v1/products/${id}/`)
 
-        this.car = vehicle
+        this.product = item
       } catch (error) {
-        console.error('Failed to fetch car:', error)
+        console.error('Failed to fetch product:', error)
       }
     },
-    async createCar(vehicle: VehicleAdd) {
+    async createProduct(vehicle: ProductAdd) {
       try {
         const { public: { apiUrl } } = useRuntimeConfig();
         const { token } = useAuthState();
@@ -56,11 +56,11 @@ export const useCatalogStore = defineStore('catalogStore', {
           body: JSON.stringify(vehicle),
         });
 
-        await this.fetchCars();
+        await this.fetchProducts();
 
         console.log('Car created successfully:', response);
       } catch (error) {
-        console.error('Failed to create car:', error);
+        console.error('Failed to create product:', error);
       }
     }
   }

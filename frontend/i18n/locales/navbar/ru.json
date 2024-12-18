@@ -1,12 +1,14 @@
 {
+  "company_title_part1": "Azure",
+  "company_title_part2": "Resort",
   "home": "Главная",
   "about": "О нас",
   "services": "Услуги",
-  "cars": "Автомобили",
+  "rooms": "Номера",
   "car_types": "Типы автомобилей",
   "process": "Процесс",
   "blog": "Блог",
   "contact": "Контакты",
   "need_help": "Нужна помощь?",
-  "phone_number": "+971 52-333-4444"
+  "phone_number": "+998 94 777 99 55"
 }

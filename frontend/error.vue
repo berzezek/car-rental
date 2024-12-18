@@ -4,7 +4,7 @@
 
       <!-- Header Banner -->
       <section class="banner-header section-padding bg-img" data-overlay-dark="5"
-        data-background="/assets/img/slider/1.jpg">
+        data-background="/assets/img/slider/slide_1.jpg">
         <div class="v-middle">
           <div class="container">
             <div class="row">
@@ -29,7 +29,7 @@
               <div class="search-form">
                 <form method="post" action="index.html">
                   <div class="form-group clearfix">
-                    <input type="search" name="text" value="" placeholder="Search here" required="">
+                    <input type="search" name="text" value="" placeholder="Search here" required="true">
                     <button type="submit" class="search-button"><span class="ti-search"></span></button>
                   </div>
                 </form>

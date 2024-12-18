@@ -5,14 +5,14 @@
       <div class="kenburns-inner h-100"></div>
     </aside>
     <!-- Details -->
-    <section class="car-details section-padding">
+    <section class="product-details section-padding">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-12">
             <div class="row mb-60">
               <div class="col-md-12">
-                <div class="section-subtitle">{{ car.category_data.title }}</div>
-                <div class="section-title">{{ `${car.brand} ${car.model}` }}</div>
+                <div class="section-subtitle">{{ product.category_data.title }}</div>
+                <div class="section-title">{{ `${product.title}` }}</div>
                 <p class="mb-30">{{ $t('car_description') }}</p>
                 <ul class="list-unstyled list">
                   <li v-for="feature in ['roadside_assistance', 'free_cancellation', 'rent_now_pay']" :key="feature">
@@ -33,10 +33,10 @@
             <div class="row gallery-items mb-60">
               <div
                 class="col-md-4 gallery-masonry-wrapper single-item cardio"
-                v-for="photo in car.photos"
+                v-for="photo in product.photos"
                 :key="photo.id"
               >
-                <a :href="photo.original_photo" :title="`${car.brand} - ${car.model}`" class="gallery-masonry-item-img-link img-zoom">
+                <a :href="photo.original_photo" :title="`${product.title}`" class="gallery-masonry-item-img-link img-zoom">
                   <div class="gallery-box">
                     <div class="gallery-img">
                       <img :src="photo.thumbnail" class="img-fluid mx-auto d-block" alt="" />
@@ -70,10 +70,10 @@
           <div class="col-lg-4 col-md-12">
             <div class="sidebar-car">
               <div class="title">
-                <h4>${{ car.price }} <span>{{ $t('per_day') }}</span></h4>
+                <h4>${{ product.price }} <span>{{ $t('per_day') }}</span></h4>
               </div>
               <div class="item">
-                <div class="features" v-for="(feature, key) in carFeatures" :key="key">
+                <div class="features" v-for="(feature, key) in productFeatures" :key="key">
                   <span><i :class="feature.icon"></i> {{ $t(feature.label) }}</span>
                   <p>{{ feature.value }}</p>
                 </div>
@@ -98,8 +98,8 @@
 const catalogs = useCatalogStore();
 const route = useRoute();
 
-await callOnce(() => catalogs.fetchCar(route.params.id.toString()));
-const car = catalogs.car;
+await callOnce(() => catalogs.fetchProduct(route.params.id.toString()));
+const product = catalogs.product;
 
 const rentalFaqs = [
   { title: 'contract_annexes', content: 'contract_annexes_content' },
@@ -110,19 +110,19 @@ const rentalFaqs = [
   { title: 'traffic_fines', content: 'traffic_fines_content' },
 ];
 
-const carFeatures = {
-  doors: { label: 'doors', icon: 'omfi-door', value: car.options?.number_seats || '-' },
-  passengers: { label: 'passengers', icon: 'omfi-passengers', value: car.options?.passengers || '-' },
-  transmission: { label: 'transmission', icon: 'omfi-transmission', value: car.options?.transmission || '-' },
-  luggage: { label: 'luggage', icon: 'omfi-luggage', value: car.options?.luggage || '-' },
-  air_condition: { label: 'air_condition', icon: 'omfi-condition', value: car.options?.air_condition? 'Yes' : 'No' },
-  age: { label: 'age', icon: 'omfi-age', value: car.options?.age || '-' },
+const productFeatures = {
+  doors: { label: 'doors', icon: 'omfi-door', value: product.options?.number_seats || '-' },
+  passengers: { label: 'passengers', icon: 'omfi-passengers', value: product.options?.passengers || '-' },
+  transmission: { label: 'transmission', icon: 'omfi-transmission', value: product.options?.transmission || '-' },
+  luggage: { label: 'luggage', icon: 'omfi-luggage', value: product.options?.luggage || '-' },
+  air_condition: { label: 'air_condition', icon: 'omfi-condition', value: product.options?.air_condition? 'Yes' : 'No' },
+  age: { label: 'age', icon: 'omfi-age', value: product.options?.age || '-' },
 };
 
 onMounted(() => {
   //@ts-ignore
   $('#kenburnsSliderContainerDetails').vegas({
-    slides: car.photos?.map((photo) => ({ src: photo.original_photo })) || [],
+    slides: product.photos?.map((photo) => ({ src: photo.original_photo })) || [],
     overlay: true,
     transition: 'fade2',
     animation: 'kenburnsUpRight',
