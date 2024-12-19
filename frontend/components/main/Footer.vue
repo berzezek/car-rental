@@ -24,7 +24,7 @@
                   </div>
                   <div class="footer-contact-link-content">
                     <h6>{{ $t('write_to_us') }}</h6>
-                    <p>info@renax.com</p>
+                    <p>info@azureresort.uz</p>
                   </div>
                 </div>
                 <div class="footer-contact-links-divider"></div>

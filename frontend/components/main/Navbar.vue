@@ -20,13 +20,14 @@
           <!-- <li class="nav-item"><a class="nav-link" href="/#services" data-scroll-nav="2">{{ $t('services') }}</a></li> -->
           <!-- <li class="nav-item"><a class="nav-link" href="/#products">{{ $t('rooms') }}</a></li> -->
           <!-- <li class="nav-item"><a class="nav-link" href="/#car_types" data-scroll-nav="4">{{ $t('car_types') }}</a></li> -->
+          <li class="nav-item"><a class="nav-link" href="/activities">{{ $t('activity') }}</a></li>
           <li class="nav-item"><a class="nav-link" href="/#process">{{ $t('process') }}</a></li>
           <li class="nav-item"><a class="nav-link" href="/#contact">{{ $t('contact') }}</a></li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside"
               aria-expanded="false">
               <i class="ti-angle-down">
-                &#160;<img :src="`/assets/img/lang/${currentLang}.png`"
+                &#160;<img :src="locale ? `/assets/img/lang/${locale}.png` : '/assets/img/lang/translate.png'"
                   width="16px" alt="translate" />
               </i>
               <!-- <i class="ti-angle-down">
@@ -62,7 +63,6 @@
 const { locale, locales, setLocale } = useI18n()
 const commonStore = useCommonStore()
 
-const currentLang = ref('translate');
 
 const availableLocales = computed(() => {
   return locales.value.filter(i => i.code !== locale.value)
@@ -70,13 +70,12 @@ const availableLocales = computed(() => {
 
 const changeLang = (lang: 'en' | 'fr' | 'ru' | 'uz') => {
   commonStore.switchLoader(true);
-  setLocale(lang);
   commonStore.switchLoader(false);
-  currentLang.value = lang;
   // reload page
-  // setTimeout(() => {
-  //   window.location.reload();
-  // }, 100);
+  setTimeout(() => {
+    window.location.reload();
+  }, 100);
+  setLocale(lang);
 }
 
 </script>

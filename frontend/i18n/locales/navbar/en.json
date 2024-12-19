@@ -6,9 +6,26 @@
   "services": "Services",
   "rooms": "Rooms",
   "car_types": "Car Types",
+  "activity": "Activity",
   "process": "Process",
   "blog": "Blog",
   "contact": "Contact",
   "need_help": "Need Help?",
-  "phone_number": "+998 94 777 99 55"
+  "phone_number": "+998 94 777 99 55",
+  "activities": {
+    "Swimming Pool": "Swimming Pool",
+    "Spa": "Spa",
+    "Disco Bar": "Disco Bar",
+    "Restaurant": "Restaurant",
+    "Billiards": "Billiards",
+    "Kids Playground": "Kids Playground",
+    "content": {
+      "Swimming Pool": "Enjoy a refreshing swim in our luxurious pool.",
+      "Spa": "Relax and rejuvenate in our spa with various treatments.",
+      "Disco Bar": "Dance the night away at our vibrant disco bar.",
+      "Restaurant": "Savor gourmet dishes crafted by our top chefs.",
+      "Billiards": "Enjoy a friendly game of billiards with your companions.",
+      "Kids Playground": "Let your kids have fun in our safe and entertaining playground."
+    }
+  }
 }
