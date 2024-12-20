@@ -21,7 +21,8 @@ const onBeforeEnter = async () => {
       animationDuration: 20000
     });
   });
-
+  // reload the page
+  location.reload();
 }
 </script>
 

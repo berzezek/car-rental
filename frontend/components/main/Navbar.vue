@@ -61,21 +61,13 @@
 
 <script setup lang="ts">
 const { locale, locales, setLocale } = useI18n()
-const commonStore = useCommonStore()
-
 
 const availableLocales = computed(() => {
   return locales.value.filter(i => i.code !== locale.value)
 })
 
 const changeLang = (lang: 'en' | 'fr' | 'ru' | 'uz') => {
-  commonStore.switchLoader(true);
-  commonStore.switchLoader(false);
-  // reload page
-  setTimeout(() => {
-    window.location.reload();
-  }, 100);
-  setLocale(lang);
+  setLocale(lang)
 }
 
 </script>
