@@ -2,7 +2,7 @@
   <!-- Booking Search -->
   <section id="bookingseach" data-scroll-index="1" class="background bg-img bg-fixed section-padding"
     data-overlay-dark="5" data-background="/assets/img/slider/slide_1.jpg">
-    <div class="container">
+    <div class="container h-5">
       <!-- <div class="row">
         <div class="col-md-12 text-center mb-15">
           <div class="section-subtitle">{{ $t('rent_now') }}</div>
@@ -84,5 +84,9 @@ watch(
 <style scoped>
 .c1 {
   width: 25%;
+}
+
+.h-5 {
+  height: 50vh !important;
 }
 </style>

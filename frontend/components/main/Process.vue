@@ -4,16 +4,16 @@
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-12 text-center mb-30">
-					<div class="section-subtitle">{{ $t('steps') }}</div>
-					<div class="section-title">{{ $t('company_title') }} <span>{{ $t('process') }}</span></div>
+					<div class="section-subtitle">{{ $t('process.steps') }}</div>
+					<div class="section-title">{{ $t('common.company_title') }} <span>{{ $t('process.title') }}</span></div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4 mb-30">
 					<div class="item">
 						<div class="text">
-							<h5>{{ $t('choose_a_car') }}</h5>
-							<p>{{ $t('choose_a_car_desc') }}</p>
+							<h5>{{ $t('process.choose_a_product') }}</h5>
+							<p>{{ $t('process.choose_a_product_desc') }}</p>
 						</div>
 						<div class="numb">
 							<div class="numb-curv">
@@ -37,8 +37,8 @@
 				<div class="col-md-4 mb-30">
 					<div class="item">
 						<div class="text">
-							<h5>{{ $t('come_in_contact') }}</h5>
-							<p>{{ $t('come_in_contact_desc') }}</p>
+							<h5>{{ $t('process.come_in_contact') }}</h5>
+							<p>{{ $t('process.come_in_contact_desc') }}</p>
 						</div>
 						<div class="numb">
 							<div class="numb-curv">
@@ -62,8 +62,8 @@
 				<div class="col-md-4 mb-30">
 					<div class="item">
 						<div class="text">
-							<h5>{{ $t('enjoy_driving') }}</h5>
-							<p>{{ $t('enjoy_driving_desc') }}</p>
+							<h5>{{ $t('process.enjoy_driving') }}</h5>
+							<p>{{ $t('process.enjoy_driving_desc') }}</p>
 						</div>
 						<div class="numb">
 							<div class="numb-curv">
@@ -87,7 +87,7 @@
 			</div>
 			<div class="row justify-content-center">
 				<div class="col-md-12 text-center mt-15">
-					<p><span class="ti-info"></span> {{ $t('process_info') }}</p>
+					<p><span class="ti-info"></span> {{ $t('process.process_info') }}</p>
 				</div>
 			</div>
 		</div>

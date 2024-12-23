@@ -79,8 +79,8 @@ body {
 
 body {
     font-family: 'Stem';
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 350;
     line-height: 1.95em;
     color: #555;
     overflow-x: hidden !important;
@@ -88,8 +88,8 @@ body {
 
 p {
     font-family: 'Stem';
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 350;
     line-height: 1.95em;
     color: #555;
     margin-bottom: 15px;
@@ -113,11 +113,11 @@ h4 {
 }
 
 h5 {
-    font-size: 17px;
+    font-size: 18px;
 }
 
 h6 {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 h1,
@@ -189,8 +189,8 @@ textarea {
     width: 100%;
     line-height: 1.5em;
     font-family: 'Stem';
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 350;
     color: #555;
     background-image: none;
     border: none;
@@ -260,9 +260,9 @@ input[type="submit"] {
     transition: border-color 400ms ease, color 400ms ease, background-color 400ms ease;
     color: #1b1b1b;
     line-height: 20px;
-    font-weight: 300;
+    font-weight: 350;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     border-radius: 30px;
 }
 
@@ -283,8 +283,8 @@ input[type="submit"]:hover {
 ::-webkit-input-placeholder {
     color: #555;
     font-family: 'Stem';
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 350;
 }
 
 :-moz-placeholder {
@@ -549,7 +549,7 @@ hr {
 }
 
 .list-text p {
-    font-size: 14px;
+    font-size: 16px;
     margin: 0;
     color: #555;
 }
@@ -812,7 +812,7 @@ hr {
     font-size: 10px;
     line-height: 10px;
     font-family: 'Stem';
-    font-weight: 300;
+    font-weight: 350;
     color: #f5b754;
     margin-bottom: 15px;
     position: relative;
@@ -862,8 +862,8 @@ hr {
 
 .navbar .navbar-nav .nav-link {
     font-family: 'Stem';
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 350;
     color: #fff;
     margin: 1px;
     -webkit-transition: all .4s;
@@ -1004,8 +1004,8 @@ hr {
 .navbar .dropdown-menu .dropdown-item {
     padding: 7px 0;
     font-family: 'Stem';
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 350;
     color: #1b1b1b;
     position: relative;
     background-color: transparent;
@@ -1262,12 +1262,12 @@ hr {
     .navbar .dropdown-menu .dropdown-item {
         color: #1b1b1b;
         padding: 0 15px;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 40px;
     }
 
     .navbar .dropdown-menu .dropdown-item.dropdown-toggle {
-        font-weight: 300;
+        font-weight: 350;
     }
 
     .navbar .dropdown-submenu .dropdown-toggle::after {
@@ -1352,7 +1352,7 @@ hr {
 .header .caption h6 {
     position: relative;
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 350;
     color: #f5b754;
     text-transform: uppercase;
     letter-spacing: 6px;
@@ -1396,7 +1396,7 @@ hr {
 .header .caption h5 {
     font-family: 'Stem';
     font-size: 17px;
-    font-weight: 300;
+    font-weight: 350;
     color: #fff;
     margin: 10px 0;
     -webkit-animation-delay: .6s;
@@ -1415,7 +1415,7 @@ hr {
 
 .header .caption h5 span i {
     font-style: normal;
-    font-weight: 300;
+    font-weight: 350;
     font-size: 12px;
     text-transform: uppercase;
     color: #fff;
@@ -1430,7 +1430,7 @@ hr {
     animation-delay: .8s;
     margin-right: 15px;
     margin-bottom: 15px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .header .car-features {
@@ -1607,7 +1607,7 @@ hr {
 .parallax-header h6 {
     position: relative;
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 350;
     color: #f5b754;
     text-transform: uppercase;
     letter-spacing: 6px;
@@ -1632,7 +1632,7 @@ hr {
 .parallax-header h5 {
     font-family: 'Stem';
     font-size: 17px;
-    font-weight: 300;
+    font-weight: 350;
     color: #fff;
     margin: 15px 0;
     -webkit-animation-delay: .6s;
@@ -1651,7 +1651,7 @@ hr {
 
 .parallax-header h5 span i {
     font-style: normal;
-    font-weight: 300;
+    font-weight: 350;
     font-size: 12px;
     text-transform: uppercase;
     color: #fff;
@@ -1662,14 +1662,14 @@ hr {
 
 .parallax-header[data-overlay-dark] p,
 .parallax-header p {
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 350;
     color: #fff;
 }
 
 .parallax-header .button-1,
 .parallax-header .button-2 {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 
@@ -1704,7 +1704,7 @@ hr {
     padding: 7px 25px;
     border-radius: 4px;
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 350;
     line-height: 25px;
     color: #fff;
     margin-bottom: 0;
@@ -1761,7 +1761,7 @@ hr {
     width: 45px;
     height: 45px;
     line-height: 45px;
-    font-size: 14px;
+    font-size: 16px;
     color: #000;
     background-color: rgba(245, 183, 84, 0.8);
     border-radius: 50%;
@@ -1777,7 +1777,7 @@ hr {
 .parallax-header2 .item .cont .list .text {
     margin-left: 15px;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 350;
     line-height: 30px;
     color: #fff;
     margin-bottom: 0;
@@ -1833,7 +1833,7 @@ hr {
     }
 
     .parallax-header2 .item .cont .list .text {
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 
@@ -1879,7 +1879,7 @@ hr {
 .kenburns-inner .caption h6 {
     position: relative;
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 350;
     color: #f5b754;
     text-transform: uppercase;
     letter-spacing: 6px;
@@ -1903,7 +1903,7 @@ hr {
 .kenburns-inner .caption h5 {
     font-family: 'Stem';
     font-size: 17px;
-    font-weight: 300;
+    font-weight: 350;
     color: #fff;
     margin: 15px 0;
     -webkit-animation-delay: .6s;
@@ -1922,7 +1922,7 @@ hr {
 
 .kenburns-inner .caption h5 span i {
     font-style: normal;
-    font-weight: 300;
+    font-weight: 350;
     font-size: 12px;
     text-transform: uppercase;
     color: #fff;
@@ -1932,8 +1932,8 @@ hr {
 }
 
 .kenburns-inner .caption[data-overlay-dark] p {
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 350;
     color: #fff;
 }
 
@@ -2048,7 +2048,7 @@ hr {
     display: block;
     font-family: 'Stem';
     font-size: 10px;
-    font-weight: 300;
+    font-weight: 350;
     color: #f5b754;
     letter-spacing: 6px;
     text-transform: uppercase;
@@ -2121,7 +2121,7 @@ hr {
 .video-fullscreen-wrap h6 {
     position: relative;
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 350;
     color: #f5b754;
     text-transform: uppercase;
     letter-spacing: 6px;
@@ -2145,7 +2145,7 @@ hr {
 .video-fullscreen-wrap h5 {
     font-family: 'Stem';
     font-size: 17px;
-    font-weight: 300;
+    font-weight: 350;
     color: #fff;
     margin: 15px 0;
     -webkit-animation-delay: .6s;
@@ -2164,7 +2164,7 @@ hr {
 
 .video-fullscreen-wrap h5 span i {
     font-style: normal;
-    font-weight: 300;
+    font-weight: 350;
     font-size: 12px;
     text-transform: uppercase;
     color: #fff;
@@ -2174,14 +2174,14 @@ hr {
 }
 
 .video-fullscreen-wrap[data-overlay-dark] p {
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 350;
     color: #fff;
 }
 
 .video-fullscreen-wrap .button-1,
 .video-fullscreen-wrap .button-2 {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 
@@ -2215,7 +2215,7 @@ hr {
 .car-features .wrapp .features span i {
     color: #1b1b1b;
     margin-right: 10px;
-    font-size: 14px;
+    font-size: 16px;
     background: #f5b754;
     padding: 10px;
     border-radius: 100%;
@@ -2252,7 +2252,7 @@ hr {
     font-size: 10px;
     line-height: 10px;
     font-family: 'Stem';
-    font-weight: 300;
+    font-weight: 350;
     color: #f5b754;
     margin-bottom: 15px;
     position: relative;
@@ -2275,8 +2275,8 @@ hr {
 }
 
 .banner-header p {
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 350;
     margin-bottom: 0;
     color: #1b1b1b;
     -webkit-animation-delay: 1s;
@@ -2294,14 +2294,14 @@ hr {
     -ms-flex-align: center;
     align-items: center;
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 15px;
 }
 
 .banner-header .post-wrapper a {
     color: #f5b754;
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 350;
 }
 
 .banner-header .post-wrapper .divider {
@@ -2466,8 +2466,8 @@ hr {
 
 .team .item .title h6 {
     color: rgba(255, 255, 255, 0.7);
-    font-weight: 300;
-    font-size: 14px;
+    font-weight: 350;
+    font-size: 16px;
     margin-bottom: 20px;
 }
 
@@ -2596,7 +2596,7 @@ hr {
 }
 
 .team-single .list-text p {
-    font-size: 14px;
+    font-size: 16px;
     margin: 0;
     color: #555;
 }
@@ -2623,8 +2623,8 @@ hr {
 }
 
 .team-single .wrapper .cont .coll h6 {
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 350;
     line-height: 1em;
     white-space: normal;
     margin: 0;
@@ -2634,8 +2634,8 @@ hr {
 }
 
 .team-single .wrapper .cont .coll h5 {
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 350;
     white-space: normal;
     margin: 0;
     margin-top: 0;
@@ -2658,7 +2658,7 @@ hr {
     height: 50px;
     line-height: 50px;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     border: 1px solid #f2f2f2;
     color: #1b1b1b;
     border-radius: 0;
@@ -2719,7 +2719,7 @@ hr {
     font-weight: 700;
     cursor: pointer;
     color: #1b1b1b;
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Stem';
 }
 
@@ -2727,7 +2727,7 @@ hr {
     font-weight: 700;
     color: #f5b754;
     font-family: 'Stem';
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .team-single .tab-content p {
@@ -2812,7 +2812,7 @@ hr {
 }
 
 .cars1 .item .con .details {
-    font-size: 14px;
+    font-size: 16px;
     color: #555;
     margin-bottom: 0;
     margin-right: 10px;
@@ -2843,8 +2843,8 @@ hr {
     border: 1px solid #f5b754;
     border-radius: 30px;
     font-family: 'Stem';
-    font-weight: 300;
-    font-size: 14px;
+    font-weight: 350;
+    font-size: 16px;
 }
 
 .cars1 .item .con .book .btn:hover {
@@ -2861,14 +2861,14 @@ hr {
 .cars1 .item .con .book>div:nth-child(2) {
     padding-left: 15px;
     padding-right: 0;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.2em;
 }
 
 .cars1 .item .con .book>div>span {
     display: block;
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 16px;
     color: #555;
 }
 
@@ -3046,7 +3046,7 @@ hr {
     color: #f5b754;
     font-size: 10px;
     line-height: 10px;
-    font-weight: 300;
+    font-weight: 350;
     letter-spacing: 6px;
     text-transform: uppercase;
     margin-bottom: 10px;
@@ -3132,7 +3132,7 @@ hr {
 
 /* show and hidden class */
 .cars2 .item .curv-butn .icon i {
-    font-weight: 300;
+    font-weight: 350;
     font-style: normal;
 
 }
@@ -3148,7 +3148,7 @@ hr {
 
 .cars2 .item .curv-butn .icon i span i {
     font-family: "Outfit", sans-serif;
-    font-weight: 300;
+    font-weight: 350;
     font-style: normal;
     font-size: 12px;
     color: #1b1b1b;
@@ -3167,13 +3167,13 @@ hr {
     border-radius: 50%;
     text-align: center;
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     vertical-align: middle;
 }
 
 /* details */
 .cars2 .item .title .details {
-    font-size: 14px;
+    font-size: 16px;
     color: rgba(255, 255, 255, 0.7);
     margin-bottom: 0;
     transition: all 500ms ease;
@@ -3259,7 +3259,7 @@ hr {
     height: 60px;
     border-radius: 50%;
     background-color: transparent;
-    font-size: 14px;
+    font-size: 16px;
     color: #fff;
     border: 1px solid #fff;
     display: -webkit-box;
@@ -3297,7 +3297,7 @@ hr {
 }
 
 .cars3 .item .info .details {
-    font-size: 14px;
+    font-size: 16px;
     color: rgba(255, 255, 255, 0.7);
     margin-bottom: 0;
     margin-right: 10px;
@@ -3377,8 +3377,8 @@ hr {
 
 .cars3 .item .project-date .year span {
     color: #555;
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 350;
     display: block;
 }
 
@@ -3615,7 +3615,7 @@ hr {
 .cars4 .car-list .item .content .cont .features span i {
     color: #f5b754;
     margin-right: 10px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .cars4 .car-list .item .content .cont .features p {
@@ -3641,14 +3641,14 @@ hr {
 .cars4 .car-list .item .content .cont .book>div:nth-child(2) {
     padding-left: 15px;
     padding-right: 0;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.2em;
 }
 
 .cars4 .car-list .item .content .cont .book>div>span {
     display: block;
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .cars4 .car-list .item .content .cont .book .price {
@@ -3659,8 +3659,8 @@ hr {
 }
 
 .cars4 .car-list .item .content .cont .book .price span {
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 350;
     color: #555;
     margin-bottom: 0;
 }
@@ -3706,9 +3706,9 @@ hr {
 .car-details .sidebar-car .title h4>span {
     font-family: 'Stem';
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 16px;
     color: #1b1b1b;
-    font-weight: 300;
+    font-weight: 350;
 }
 
 .car-details .sidebar-car .item {
@@ -3728,7 +3728,7 @@ hr {
 .car-details .sidebar-car .item .features span i {
     color: #f5b754;
     margin-right: 10px;
-    font-size: 14px;
+    font-size: 16px;
     background: #333;
     padding: 10px;
     border-radius: 100%;
@@ -3746,14 +3746,14 @@ hr {
     text-align: center;
     margin: 10px 0;
     font-family: 'Stem';
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 350;
 }
 
 .btn-double:before {
     content: attr(data-grouptype);
     color: #fff;
-    font-weight: 300;
+    font-weight: 350;
     display: block;
     font-size: 12px;
     width: 30px;
@@ -3774,7 +3774,7 @@ hr {
 
 .btn-double>a {
     display: inline-block;
-    font-size: 14px;
+    font-size: 16px;
     text-decoration: none;
     transition: color .3s ease;
 }
@@ -3898,7 +3898,7 @@ hr {
 .car-types1 .item .curv-butn .icon {
     width: 60px;
     height: 60px;
-    font-size: 14px;
+    font-size: 16px;
     color: #1b1b1b;
     border: 1px solid #f5b754;
     background: #f5b754;
@@ -3948,8 +3948,8 @@ hr {
 }
 
 .car-types2 .item h6 {
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 350;
     color: #1b1b1b;
     margin-bottom: 0;
 }
@@ -4016,8 +4016,8 @@ hr {
 
 .car-types3 .item .text p {
     font-family: "Outfit", sans-serif;
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 350;
     color: #555;
     margin-bottom: 25px;
 }
@@ -4081,7 +4081,7 @@ hr {
     border-radius: 50%;
     text-align: center;
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     vertical-align: middle;
 }
 
@@ -4192,7 +4192,7 @@ hr {
 }
 
 .car-types4 .item .info .subtitle {
-    font-weight: 300;
+    font-weight: 350;
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 6px;
@@ -4235,8 +4235,8 @@ hr {
 }
 
 .car-types4 .item .curv-butn .icon i {
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 350;
     font-style: normal;
 }
 
@@ -4342,8 +4342,8 @@ hr {
 
 .services-box .item p {
     color: #555;
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 350;
     margin-bottom: 0;
 }
 
@@ -4452,8 +4452,8 @@ hr {
 
 .services1 .item .text p {
     font-family: 'Stem';
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 350;
     line-height: 1.95em;
     color: #555;
     margin-bottom: 20px;
@@ -4479,7 +4479,7 @@ hr {
     font-family: 'Stem';
     color: #fff;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -4603,7 +4603,7 @@ hr {
 
 /* show and hidden class */
 .services2 .item .curv-butn .icon {
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 700;
     font-style: normal;
 
@@ -4694,7 +4694,7 @@ hr {
 
 .service-details .sidebar-page .title h4>span {
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 16px;
     color: #1b1b1b;
     font-weight: 400;
 }
@@ -4779,8 +4779,8 @@ hr {
 
 .process .item .text p {
     font-family: 'Stem';
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 350;
     line-height: 1.95em;
     color: #555;
     margin-bottom: 20px;
@@ -4806,7 +4806,7 @@ hr {
     font-family: 'Stem';
     color: #1b1b1b;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
     border: 1px solid #f2f2f2;
 }
@@ -4998,13 +4998,13 @@ hr {
     font-family: 'Stem';
     color: #f5b754;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .testimonials .item .text p {
     font-family: 'Stem';
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 350;
     line-height: 1.95em;
     color: #555;
     margin-bottom: 15px;
@@ -5038,14 +5038,14 @@ hr {
     font-family: 'Stem';
     color: #1b1b1b;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 0;
 }
 
 .testimonials .item .info p {
     font-family: 'Stem';
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 350;
     line-height: 1.5em;
     color: #555;
     margin-bottom: 0;
@@ -5201,8 +5201,8 @@ hr {
 }
 
 .gallery-box .gallery-detail h4 {
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 350;
     color: #fff;
     margin-bottom: 0;
 }
@@ -5527,7 +5527,7 @@ body.mfp-zoom-out-cur {
 
 .accordion-box .block .acc-btn {
     position: relative;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 14px;
     font-weight: 700;
     cursor: pointer;
@@ -5543,7 +5543,7 @@ body.mfp-zoom-out-cur {
     padding-right: 5px;
     font-weight: 700;
     font-family: 'Stem';
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .accordion-box .block .acc-btn.active .count {
@@ -5616,7 +5616,7 @@ body.mfp-zoom-out-cur {
 }
 
 .price .item h3 span {
-    font-weight: 300;
+    font-weight: 350;
     font-size: 10px;
     display: block;
     color: #f5b754;
@@ -5625,8 +5625,8 @@ body.mfp-zoom-out-cur {
 }
 
 .price .item p {
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 350;
     color: #555;
     margin-bottom: 0;
 }
@@ -5707,7 +5707,7 @@ body.mfp-zoom-out-cur {
 
 .price .item .rmore .arrow span {
     color: #1b1b1b;
-    font-size: 14px;
+    font-size: 16px;
     display: inline-block;
     font-weight: 500;
     align-self: flex-start;
@@ -5896,7 +5896,7 @@ body.mfp-zoom-out-cur {
 }
 
 .ui-datepicker {
-    font-size: 14px;
+    font-size: 16px;
     color: #555;
     background: #fff;
     z-index: 9999 !important;
@@ -5954,13 +5954,13 @@ body.mfp-zoom-out-cur {
     background: #f5b754;
     color: #1b1b1b;
     font-family: 'Stem';
-    font-size: 14px;
+    font-size: 16px;
     text-decoration: none;
     line-height: 60px;
     position: relative;
     cursor: pointer;
     transition: all 0.3s ease-out;
-    font-weight: 300;
+    font-weight: 350;
     border-radius: 30px;
 }
 
@@ -5996,7 +5996,7 @@ body.mfp-zoom-out-cur {
 .input1_inner input {
     display: block;
     width: 100%;
-    font-size: 14px;
+    font-size: 16px;
     color: #555;
     padding: 15px 20px;
     background: #fff;
@@ -6074,7 +6074,7 @@ body.mfp-zoom-out-cur {
 }
 
 .select2-container--default .select2-selection--single .select2-selection__rendered {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 28px;
     padding: 15px 20px;
     color: #555
@@ -6103,7 +6103,7 @@ body.mfp-zoom-out-cur {
 .select2-results__option {
     padding: 10px 30px;
     background: #fff;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
     color: #555;
     border-top: 1px solid #f2f2f2;
@@ -6338,7 +6338,7 @@ body.mfp-zoom-out-cur {
     width: 55px;
     height: 55px;
     line-height: 58px;
-    font-size: 14px;
+    font-size: 16px;
     background-color: #f5b754;
     border: 1px solid #f5b754;
     color: #1b1b1b;
@@ -6425,7 +6425,7 @@ body.mfp-zoom-out-cur {
     color: #f5b754;
     font-size: 10px;
     line-height: 10px;
-    font-weight: 300;
+    font-weight: 350;
     letter-spacing: 6px;
     text-transform: uppercase;
     margin-bottom: 10px;
@@ -6493,7 +6493,7 @@ body.mfp-zoom-out-cur {
     width: 70px;
     height: 70px;
     line-height: 70px;
-    font-size: 14px;
+    font-size: 16px;
     color: #1b1b1b;
     border: 1px solid #f5b754;
     border-radius: 100%;
@@ -6512,7 +6512,7 @@ body.mfp-zoom-out-cur {
 
 /* show and hidden class */
 .blog2 .item .curv-butn .icon i {
-    font-weight: 300;
+    font-weight: 350;
     font-style: normal;
 
 }
@@ -6527,7 +6527,7 @@ body.mfp-zoom-out-cur {
 
 .blog2 .item .curv-butn .icon i span i {
     font-family: "Outfit", sans-serif;
-    font-weight: 300;
+    font-weight: 350;
     font-style: normal;
     font-size: 12px;
 }
@@ -6545,7 +6545,7 @@ body.mfp-zoom-out-cur {
     border-radius: 50%;
     text-align: center;
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     vertical-align: middle;
 }
 
@@ -6591,7 +6591,7 @@ body.mfp-zoom-out-cur {
 
 .blog3 .post-cont .tag {
     display: block;
-    font-size: 14px;
+    font-size: 16px;
     color: #f5b754;
     margin-bottom: 0px;
 }
@@ -6607,7 +6607,7 @@ body.mfp-zoom-out-cur {
     margin-right: 5px;
     position: relative;
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 350;
     margin-bottom: 15px;
     color: #1b1b1b;
     display: inline-block;
@@ -6644,7 +6644,7 @@ body.mfp-zoom-out-cur {
     margin-right: 5px;
     position: relative;
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 350;
     margin-bottom: 15px;
     color: #555;
     display: inline-block;
@@ -6673,7 +6673,7 @@ body.mfp-zoom-out-cur {
 }
 
 .blog3-sidebar .widget ul li {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5em;
     margin-bottom: 15px;
 }
@@ -6832,7 +6832,7 @@ body.mfp-zoom-out-cur {
 .post .section h6 span {
     font-size: 12px;
     color: #555;
-    font-weight: 300;
+    font-weight: 350;
     font-family: 'Stem';
     letter-spacing: 0;
     display: block;
@@ -6862,7 +6862,7 @@ body.mfp-zoom-out-cur {
     font-size: 10px;
     color: #fff;
     margin: 0;
-    font-weight: 300;
+    font-weight: 350;
 }
 
 .post .section .wrap .cont a.repay:hover {
@@ -6888,7 +6888,7 @@ body.mfp-zoom-out-cur {
     line-height: 50px;
     text-align: center;
     color: #1b1b1b;
-    font-weight: 300;
+    font-weight: 350;
     border: 1px solid #f2f2f2;
     border-radius: 100%;
     transition: border-color 300ms ease, transform 300ms ease, background-color 300ms ease, color 300ms ease;
@@ -6942,7 +6942,7 @@ body.mfp-zoom-out-cur {
 
 .post-prev-next a {
     display: inline-block;
-    font-size: 14px;
+    font-size: 16px;
     color: #555;
     line-height: 1em;
 }
@@ -7046,7 +7046,7 @@ body.mfp-zoom-out-cur {
 
 .opening-hours ul li {
     margin-bottom: 15px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .opening-hours ul li:last-of-type {
@@ -7140,8 +7140,8 @@ body.mfp-zoom-out-cur {
 
 .contact-box .item p {
     color: #555;
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 350;
     margin-bottom: 0;
 }
 
@@ -7231,7 +7231,7 @@ body.mfp-zoom-out-cur {
     height: 60px;
     display: block;
     font-family: 'Stem';
-    font-size: 14px;
+    font-size: 16px;
     background: transparent;
     color: #1b1b1b;
     border-radius: 0px;
@@ -7261,7 +7261,7 @@ body.mfp-zoom-out-cur {
     width: 50px;
     height: 50px;
     line-height: 50px;
-    font-size: 14px;
+    font-size: 16px;
     background: none;
     color: #1b1b1b;
     background: #f5b754;
@@ -7309,10 +7309,10 @@ body.mfp-zoom-out-cur {
     border-radius: 30px;
     background-color: #f5b754;
     color: #1b1b1b;
-    font-weight: 300;
+    font-weight: 350;
     text-align: center;
     font-family: 'Stem';
-    font-size: 14px;
+    font-size: 16px;
     transition: border-color 300ms ease, transform 300ms ease, background-color 300ms ease, color 300ms ease;
     transform-style: preserve-3d;
 }
@@ -7327,7 +7327,7 @@ body.mfp-zoom-out-cur {
 [data-overlay-dark] .button-1 i,
 .button-1 i {
     font-style: normal;
-    font-size: 14px;
+    font-size: 16px;
     padding-right: 5px;
     color: #1b1b1b;
 }
@@ -7352,10 +7352,10 @@ body.mfp-zoom-out-cur {
     border-radius: 30px;
     background-color: transparent;
     color: #fff;
-    font-weight: 300;
+    font-weight: 350;
     text-align: center;
     font-family: 'Stem';
-    font-size: 14px;
+    font-size: 16px;
     transition: border-color 300ms ease, transform 300ms ease, background-color 300ms ease, color 300ms ease;
     transform-style: preserve-3d;
 }
@@ -7370,7 +7370,7 @@ body.mfp-zoom-out-cur {
 [data-overlay-dark] .button-2 i,
 .button-2 i {
     font-style: normal;
-    font-size: 14px;
+    font-size: 16px;
     padding-right: 5px;
     color: #fff;
 }
@@ -7396,17 +7396,17 @@ body.mfp-zoom-out-cur {
     border-radius: 30px;
     background-color: #1b1b1b;
     color: #fff;
-    font-weight: 300;
+    font-weight: 350;
     text-align: center;
     font-family: 'Stem';
-    font-size: 14px;
+    font-size: 16px;
     transition: border-color 300ms ease, transform 300ms ease, background-color 300ms ease, color 300ms ease;
     transform-style: preserve-3d;
 }
 
 [data-overlay-dark] .button-3 span,
 .button-3 span {
-    font-size: 14px;
+    font-size: 16px;
     margin-left: 5px;
     color: #fff;
 }
@@ -7431,10 +7431,10 @@ body.mfp-zoom-out-cur {
     border-radius: 30px;
     background-color: #f5b754;
     color: #1b1b1b;
-    font-weight: 300;
+    font-weight: 350;
     text-align: center;
     font-family: 'Stem';
-    font-size: 14px;
+    font-size: 16px;
     transition: border-color 300ms ease, transform 300ms ease, background-color 300ms ease, color 300ms ease;
     transform-style: preserve-3d;
 }
@@ -7477,7 +7477,7 @@ body.mfp-zoom-out-cur {
     font-size: 10px;
     color: #f5b754;
     margin-bottom: 10px;
-    font-weight: 300;
+    font-weight: 350;
     letter-spacing: 6px;
 }
 
@@ -7490,7 +7490,7 @@ body.mfp-zoom-out-cur {
 
 .lets-talk[data-overlay-dark] p,
 .lets-talk p {
-    font-size: 14px;
+    font-size: 16px;
     color: #fff;
     line-height: 1.5em;
 }
@@ -7514,7 +7514,7 @@ body.mfp-zoom-out-cur {
     font-size: 10px;
     color: #1b1b1b;
     margin-bottom: 10px;
-    font-weight: 300;
+    font-weight: 350;
     letter-spacing: 6px;
 }
 
@@ -7527,7 +7527,7 @@ body.mfp-zoom-out-cur {
 
 .app .item[data-overlay-dark] p,
 .app .item p {
-    font-size: 14px;
+    font-size: 16px;
     color: #1b1b1b;
     line-height: 1.5em;
 }
@@ -7670,14 +7670,14 @@ body.mfp-zoom-out-cur {
 
 .footer-contact-link-wrapper h6 {
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 0px;
     font-weight: 700;
 }
 
 .footer-contact-link-wrapper p {
     color: rgba(255, 255, 255, 0.8);
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 0px;
 }
 
@@ -7771,10 +7771,10 @@ body.mfp-zoom-out-cur {
     height: 50px;
     line-height: 50px;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     background: transparent;
     color: #fff;
-    font-weight: 300;
+    font-weight: 350;
     border-radius: 0;
     margin-right: 5px;
     -webkit-transition: all .4s;
@@ -7799,7 +7799,7 @@ body.mfp-zoom-out-cur {
     width: 100%;
     border: none;
     background: transparent;
-    font-size: 14px;
+    font-size: 16px;
     color: #fff;
     outline: none;
     padding: 0 90px 0 20px;
@@ -7812,7 +7812,7 @@ body.mfp-zoom-out-cur {
     width: 50px;
     border: none;
     background: #f5b754;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     color: #1b1b1b;
     outline: none;

@@ -1,0 +1,128 @@
+{
+  "common": {
+    "company_title": "Azure Resort",
+    "company_title_part1": "Azure",
+    "company_title_part2": "Resort",
+    "phone_number": "+998 94 777 99 55",
+    "need_help": "Besoin d'aide ?",
+    "read_more": "Lire la suite",
+    "company_description": "Un hôtel confortable dans les montagnes de Beldersay, en Ouzbékistan, offrant des transferts hivernaux vers les stations de ski et des randonnées estivales sur des sentiers pittoresques, ainsi que des moments de détente au bord de la piscine avec une vue imprenable.",
+    "view_details": "Voir les détails",
+    "order_now": "Réserver maintenant"
+  },
+  "navbar": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "rooms": "Chambres",
+    "car_types": "Types de voitures",
+    "activity": "Activités",
+    "process": "Processus",
+    "price": "Prix",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "about": {
+    "company_subtitle_1": "Où le confort rencontre",
+    "company_subtitle_2": "La beauté naturelle",
+    "company_subtitle_3": "Azure Resort offre une combinaison unique d'aventure et de détente, avec des transferts hivernaux vers les stations de ski, des randonnées estivales dans les montagnes pittoresques de Beldersay et des équipements luxueux pour un séjour inoubliable.",
+    "activity_1": "Activités hivernales",
+    "activity_2": "Aventures estivales"
+  },
+  "process": {
+    "steps": "Étapes",
+    "title": "Processus",
+    "choose_a_product": "Choisissez votre chambre",
+    "choose_a_product_desc": "Parcourez notre sélection de chambres et suites confortables, adaptées pour une escapade parfaite en montagne.",
+    "come_in_contact": "Contactez-nous",
+    "come_in_contact_desc": "Notre équipe est là pour vous aider avec les réservations ou répondre à vos questions.",
+    "enjoy_driving": "Profitez de votre séjour",
+    "enjoy_driving_desc": "Détendez-vous dans le confort de notre station et laissez-vous séduire par la beauté des environs.",
+    "process_info": "Si c'est votre première visite à Azure Resort, nous vous guiderons à chaque étape."
+  },
+  "faq": {
+    "subtitle": "FAQ",
+    "title": "Questions fréquemment posées",
+    "question_1": "Quelles activités sont disponibles en hiver ?",
+    "answer_1": "Nous proposons des transferts vers les stations de ski voisines et une assistance pour les activités de sports d'hiver.",
+    "question_2": "Que puis-je faire en été à Azure Resort ?",
+    "answer_2": "Vous pouvez profiter de randonnées sur des sentiers de montagne pittoresques, nager dans la piscine et vous détendre avec des vues imprenables.",
+    "question_3": "Y a-t-il du Wi-Fi disponible ?",
+    "answer_3": "Oui, le Wi-Fi haut débit gratuit est disponible dans tout le complexe.",
+    "question_4": "Comment puis-je réserver une chambre ?",
+    "answer_4": "Les chambres peuvent être réservées via notre site Web, par téléphone ou par e-mail.",
+    "question_5": "Les animaux de compagnie sont-ils autorisés ?",
+    "answer_5": "Veuillez vérifier avec nous lors de la réservation, car les politiques relatives aux animaux de compagnie peuvent varier."
+  },
+  "talk": {
+    "order_product": "Réservez votre chambre maintenant",
+    "interested": "Vous êtes intéressé ?",
+    "dont_hesitate": "N'hésitez pas et envoyez-nous un message."
+  },
+  "footer": {
+    "call_us": "Appelez-nous",
+    "write_to_us": "Écrivez-nous",
+    "address": "Adresse",
+    "location": "Beldersay, Ouzbékistan, Azure Resort",
+    "about_description": "Découvrez la beauté des montagnes avec Azure Resort – votre porte d'entrée vers des aventures et une détente inoubliables.",
+    "quick_links": "Liens rapides",
+    "subscribe": "S'abonner",
+    "map": "Notre emplacement",
+    "subscribe_description": "Vous souhaitez rester informé de nos offres et services ? Inscrivez-vous et recevez des mises à jour directement dans votre boîte mail.",
+    "email_placeholder": "Adresse e-mail",
+    "all_rights_reserved": "Tous droits réservés"
+  },
+  "activities": {
+    "swimming_pool": "Piscine",
+    "spa": "Spa",
+    "disco_bar": "Bar disco",
+    "restaurant": "Restaurant",
+    "billiards": "Billard",
+    "kids_playground": "Aire de jeux pour enfants",
+    "content": {
+      "swimming_pool": "Profitez d'une baignade rafraîchissante dans notre luxueuse piscine.",
+      "spa": "Détendez-vous et revitalisez-vous dans notre spa avec divers soins.",
+      "disco_bar": "Dansez toute la nuit dans notre bar disco vibrant.",
+      "restaurant": "Savourez des plats gastronomiques préparés par nos meilleurs chefs.",
+      "billiards": "Amusez-vous avec une partie de billard entre amis.",
+      "kids_playground": "Laissez vos enfants s'amuser dans notre aire de jeux sûre et divertissante."
+    },
+    "date": {
+      "swimming_pool": "Ouvert tous les jours de 9h00 à 21h00",
+      "spa": "Ouvert tous les jours de 10h00 à 20h00",
+      "disco_bar": "Ouvert tous les jours de 20h00 à 2h00",
+      "restaurant": "Ouvert tous les jours de 7h00 à 22h00",
+      "billiards": "Ouvert tous les jours de 10h00 à 22h00",
+      "kids_playground": "Ouvert tous les jours de 9h00 à 18h00"
+    }
+  },
+  "price": {
+    "room_category": {
+      "title": "Catégories de chambres",
+      "room_type": "Type de chambre",
+      "rate": "Tarif (UZS)",
+      "standard_single": "Chambre standard (occupation simple)",
+      "standard_double": "Chambre standard (occupation double)",
+      "deluxe_single": "Chambre de luxe (occupation simple)",
+      "deluxe_double": "Chambre de luxe (occupation double)",
+      "executive_suite": "Suite exécutive",
+      "superior_connected": "Chambre supérieure connectée",
+      "accessible_room": "Chambre accessible",
+      "included": "Les tarifs comprennent le petit-déjeuner continental, thé/café en chambre, Wi-Fi gratuit, articles de toilette et 2 bouteilles d'eau gratuites par jour."
+    },
+    "children_policy": {
+      "title": "Politique pour les enfants",
+      "policy_1": "Enfants entre 1 et 12 ans utilisant un lit existant (max 1 enfant) – Gratuit",
+      "policy_2": "Lit bébé (max 1 par chambre) – Gratuit",
+      "policy_3": "Lit supplémentaire : 350,000 UZS",
+      "policy_4": "Petit-déjeuner supplémentaire : 150,000 UZS"
+    },
+    "check_in_out": {
+      "title": "Arrivée et départ",
+      "check_in": "Heure d'arrivée : 15h00",
+      "check_out": "Heure de départ : 12h00",
+      "early_check_in": "Arrivée anticipée (jusqu'à 15h00) soumise à un supplément de demi-journée.",
+      "late_check_out": "Départ tardif (après 12h00) soumis à un supplément de demi-journée ou journée complète."
+    }
+  }
+}

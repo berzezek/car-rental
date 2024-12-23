@@ -2,7 +2,7 @@
 	<!-- Video -->
 	<section class="video-wrapper video section-padding bg-img bg-fixed" data-overlay-dark="4"
 		data-background="/assets/img/slider/slide_2.jpg">
-		<div class="container">
+		<div class="container h-5">
 			<!-- <div class="row">
 				<div class="col-md-12 text-center">
 					<div class="section-subtitle">Explore</div>
@@ -19,3 +19,9 @@
 		</div>
 	</section>
 </template>
+
+<style scoped>
+.h-5 {
+	height: 50vh !important;
+}
+</style>

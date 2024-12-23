@@ -4,8 +4,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 text-center mb-30">
-						<div class="section-subtitle">{{ $t('faq_subtitle') }}</div>
-						<div class="section-title">{{ $t('faq_title') }}</div>
+						<div class="section-subtitle">{{ $t('faq.subtitle') }}</div>
+						<div class="section-title">{{ $t('faq.title') }}</div>
 					</div>
 					<div class="col-md-12">
 						<div class="accordion" id="faqAccordion">
@@ -46,24 +46,24 @@
 <script setup lang="ts">
 const faqs = [
 	{
-		question: 'faq_question_1',
-		answer: 'faq_answer_1',
+		question: 'faq.question_1',
+		answer: 'faq.answer_1',
 	},
 	{
-		question: 'faq_question_2',
-		answer: 'faq_answer_2',
+		question: 'faq.question_2',
+		answer: 'faq.answer_2',
 	},
 	{
-		question: 'faq_question_3',
-		answer: 'faq_answer_3',
+		question: 'faq.question_3',
+		answer: 'faq.answer_3',
 	},
 	{
-		question: 'faq_question_4',
-		answer: 'faq_answer_4',
+		question: 'faq.question_4',
+		answer: 'faq.answer_4',
 	},
 	{
-		question: 'faq_question_5',
-		answer: 'faq_answer_5',
+		question: 'faq.question_5',
+		answer: 'faq.answer_5',
 	},
 ];
 </script>

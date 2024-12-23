@@ -1,0 +1,128 @@
+{
+  "common": {
+    "company_title": "Azure Resort",
+    "company_title_part1": "Azure",
+    "company_title_part2": "Resort",
+    "phone_number": "+998 94 777 99 55",
+    "need_help": "Need Help?",
+    "read_more": "Read more",
+    "company_description": "A cozy hotel in the mountains of Beldersay, Uzbekistan, offering winter transfers to ski resorts and summer hikes along scenic trails, along with relaxing by the pool with stunning views.",
+    "view_details": "View Details",
+    "order_now": "Booking Now"
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "rooms": "Rooms",
+    "car_types": "Car Types",
+    "activity": "Activity",
+    "process": "Process",
+    "price": "Price",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "about": {
+    "company_subtitle_1": "Where comfort meets",
+    "company_subtitle_2": "Natural beauty",
+    "company_subtitle_3": "Azure Resort offers a unique combination of adventure and relaxation, with winter transfers to ski resorts, summer hikes in the scenic mountains of Beldersay, and luxurious amenities for an unforgettable stay.",
+    "activity_1": "Winter Activities",
+    "activity_2": "Summer Adventures"
+  },
+  "process": {
+    "steps": "Steps",
+    "title": "Process",
+    "choose_a_product": "Choose Your Room",
+    "choose_a_product_desc": "Browse our selection of cozy rooms and suites, tailored for your perfect mountain getaway.",
+    "come_in_contact": "Contact Us",
+    "come_in_contact_desc": "Our team is here to assist you with reservations or any questions you may have.",
+    "enjoy_driving": "Enjoy Your Stay",
+    "enjoy_driving_desc": "Relax in the comfort of our resort and indulge in the scenic beauty around you.",
+    "process_info": "If this is your first time visiting Azure Resort, we’ll guide you every step of the way."
+  },
+  "faq": {
+    "subtitle": "FAQ",
+    "title": "Frequently Asked Questions",
+    "question_1": "What activities are available during winter?",
+    "answer_1": "We offer transfers to nearby ski resorts and assistance with winter sports activities.",
+    "question_2": "What can I do during summer at Azure Resort?",
+    "answer_2": "You can enjoy hiking scenic mountain trails, swimming in the pool, and relaxing with stunning views.",
+    "question_3": "Is there Wi-Fi available?",
+    "answer_3": "Yes, free high-speed Wi-Fi is available throughout the resort.",
+    "question_4": "How can I book a room?",
+    "answer_4": "Rooms can be booked through our website, by phone, or by email.",
+    "question_5": "Are pets allowed?",
+    "answer_5": "Please check with us when booking, as pet policies may vary."
+  },
+  "talk": {
+    "order_product": "Book your room now",
+    "interested": "Are you interested?",
+    "dont_hesitate": "Don't hesitate and send us a message."
+  },
+  "footer": {
+    "call_us": "Call us",
+    "write_to_us": "Write to us",
+    "address": "Address",
+    "location": "Beldersay, Uzbekistan, Azure Resort",
+    "about_description": "Discover the beauty of the mountains with Azure Resort – your gateway to unforgettable adventures and relaxation.",
+    "quick_links": "Quick Links",
+    "subscribe": "Subscribe",
+    "map": "Our Location",
+    "subscribe_description": "Want to stay updated on our offers and services? Sign up and receive updates directly to your email.",
+    "email_placeholder": "Email Address",
+    "all_rights_reserved": "All rights reserved"
+  },
+  "activities": {
+    "swimming_pool": "Swimming Pool",
+    "spa": "Spa",
+    "disco_bar": "Disco Bar",
+    "restaurant": "Restaurant",
+    "billiards": "Billiards",
+    "kids_playground": "Kids Playground",
+    "content": {
+      "swimming_pool": "Enjoy a refreshing swim in our luxurious pool.",
+      "spa": "Relax and rejuvenate in our spa with various treatments.",
+      "disco_bar": "Dance the night away at our vibrant disco bar.",
+      "restaurant": "Savor gourmet dishes crafted by our top chefs.",
+      "billiards": "Enjoy a friendly game of billiards with your companions.",
+      "kids_playground": "Let your kids have fun in our safe and entertaining playground."
+    },
+    "date": {
+      "swimming_pool": "Open daily from 9:00 AM to 9:00 PM",
+      "spa": "Open daily from 10:00 AM to 8:00 PM",
+      "disco_bar": "Open daily from 8:00 PM to 2:00 AM",
+      "restaurant": "Open daily from 7:00 AM to 10:00 PM",
+      "billiards": "Open daily from 10:00 AM to 10:00 PM",
+      "kids_playground": "Open daily from 9:00 AM to 6:00 PM"
+    }
+  },
+  "price": {
+    "room_category": {
+      "title": "Room Category",
+      "room_type": "Room Type",
+      "rate": "Rate (UZS)",
+      "standard_single": "Standard Room (single occupancy)",
+      "standard_double": "Standard Room (double occupancy)",
+      "deluxe_single": "Deluxe Room (single occupancy)",
+      "deluxe_double": "Deluxe Room (double occupancy)",
+      "executive_suite": "Executive Suite",
+      "superior_connected": "Superior Connected Room",
+      "accessible_room": "Accessible Room",
+      "included": "Above Room Rates include Continental Breakfast, in-room Tea or Coffee making facility, Free Wi-Fi, Bathroom Amenities, 2 Bottles of Water daily free of charge."
+    },
+    "children_policy": {
+      "title": "Children's Policy",
+      "policy_1": "Children between 1–12 years using an existing bed (max 1 child) – Free",
+      "policy_2": "Baby cot (max 1 per room) – Free",
+      "policy_3": "Extra Bed: 350,000 UZS",
+      "policy_4": "Breakfast Supplement: 150,000 UZS"
+    },
+    "check_in_out": {
+      "title": "Check-In & Check-Out",
+      "check_in": "Check-In Time: 15:00",
+      "check_out": "Check-Out Time: 12:00",
+      "early_check_in": "Early check-in (until 15:00) is subject to half-day charge.",
+      "late_check_out": "Late check-out (after 12:00) is subject to full day or half-day charge."
+    }
+  }  
+}

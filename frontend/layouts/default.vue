@@ -34,11 +34,11 @@ useHead({
 			href: '/assets/css/style.css'
 		}
 	],
-  script: [
-    {
-      src: '/assets/js/jquery-3.7.1.min.js',
-      tagPosition: 'head'
-    },
+	script: [
+		{
+			src: '/assets/js/jquery-3.7.1.min.js',
+			tagPosition: 'head'
+		},
 		{
 			src: '/assets/js/jquery-migrate-3.4.1.min.js',
 			tagPosition: 'head'
@@ -106,7 +106,11 @@ useHead({
 		{
 			src: '/assets/js/vegas-slider-kenburns.js',
 			tagPosition: 'head'
-		}
-  ]
+		},
+		{
+			src: '//code.jivo.ru/widget/BeulQfiste',
+			tagPosition: 'head'
+		},
+	]
 })
 </script>

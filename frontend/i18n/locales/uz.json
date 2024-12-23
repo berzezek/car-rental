@@ -1,0 +1,128 @@
+{
+  "common": {
+    "company_title": "Azure Resort",
+    "company_title_part1": "Azure",
+    "company_title_part2": "Resort",
+    "phone_number": "+998 94 777 99 55",
+    "need_help": "Yordam kerakmi?",
+    "read_more": "Batafsil",
+    "company_description": "Oʻzbekistonning Beldersay togʻlarida joylashgan qulay mehmonxona. Qishda changʻi kurortlariga transferlar, yozda esa goʻzal yoʻllar boʻylab sayrlar va ajoyib manzarali hovuz yonida dam olish taklif etiladi.",
+    "view_details": "Batafsil ma'lumot",
+    "order_now": "Hozir band qiling"
+  },
+  "navbar": {
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "services": "Xizmatlar",
+    "rooms": "Xonalar",
+    "car_types": "Avtomobil turlari",
+    "activity": "Faoliyatlar",
+    "process": "Jarayon",
+    "price": "Narx",
+    "blog": "Blog",
+    "contact": "Aloqa"
+  },
+  "about": {
+    "company_subtitle_1": "Qulaylik uchrashadigan joy",
+    "company_subtitle_2": "Tabiiy go‘zallik bilan",
+    "company_subtitle_3": "Azure Resort – bu qishda chang'i kurortlariga transferlar, yozda esa go'zal tog' yo'llarida sayr qilish va qulay sharoitlar bilan unutilmas dam olishni ta'minlovchi noyob maskan.",
+    "activity_1": "Qishki faoliyatlar",
+    "activity_2": "Yozgi sayohatlar"
+  },
+  "process": {
+    "steps": "Bosqichlar",
+    "title": "Jarayon",
+    "choose_a_product": "Xonangizni tanlang",
+    "choose_a_product_desc": "Tog' maskaningiz uchun mo'ljallangan qulay xonalarni ko'zdan kechiring.",
+    "come_in_contact": "Biz bilan bog'laning",
+    "come_in_contact_desc": "Bizning jamoamiz sizning savollaringiz yoki buyurtmangizga yordam beradi.",
+    "enjoy_driving": "Dam oling",
+    "enjoy_driving_desc": "Mehmonxona qulayliklaridan bahramand bo'ling va atrofdagi go'zallikdan zavqlaning.",
+    "process_info": "Agar siz Azure Resortga birinchi marta tashrif buyursangiz, biz sizni har bosqichda kuzatib boramiz."
+  },
+  "faq": {
+    "subtitle": "FAQ",
+    "title": "Ko'p so'raladigan savollar",
+    "question_1": "Qishda qanday faoliyatlar mavjud?",
+    "answer_1": "Biz yaqin atrofdagi chang'i kurortlariga transferlar va qishki sport tadbirlariga yordam taklif qilamiz.",
+    "question_2": "Yozda Azure Resortda nimalar qilish mumkin?",
+    "answer_2": "Go'zal tog' yo'llarida sayr qilish, hovuzda suzish va manzaradan bahramand bo'lish mumkin.",
+    "question_3": "Wi-Fi mavjudmi?",
+    "answer_3": "Ha, bepul yuqori tezlikdagi Wi-Fi butun hududda mavjud.",
+    "question_4": "Xonani qanday qilib bron qilish mumkin?",
+    "answer_4": "Xonalarni veb-saytimiz orqali, telefon orqali yoki elektron pochta orqali bron qilish mumkin.",
+    "question_5": "Hayvonlarni olib kelish mumkinmi?",
+    "answer_5": "Iltimos, buyurtma berishda biz bilan bog'laning, chunki hayvonlar qabul qilish qoidalari o'zgarishi mumkin."
+  },
+  "talk": {
+    "order_product": "Xonangizni hoziroq band qiling",
+    "interested": "Qiziqasizmi?",
+    "dont_hesitate": "Qo'rqmasdan bizga xabar yuboring."
+  },
+  "footer": {
+    "call_us": "Bizga qo'ng'iroq qiling",
+    "write_to_us": "Bizga yozing",
+    "address": "Manzil",
+    "location": "Beldersay, O'zbekiston, Azure Resort",
+    "about_description": "Tog'larning go'zalligini kashf eting va Azure Resort bilan unutilmas sayohat va dam olishga eshik oching.",
+    "quick_links": "Tezkor havolalar",
+    "subscribe": "Obuna bo'ling",
+    "map": "Bizning joylashuvimiz",
+    "subscribe_description": "Bizning takliflarimiz va xizmatlarimiz haqida yangiliklardan xabardor bo'lishni xohlaysizmi? Obuna bo'ling va yangiliklarni to'g'ridan-to'g'ri elektron pochtangizga oling.",
+    "email_placeholder": "Elektron pochta manzili",
+    "all_rights_reserved": "Barcha huquqlar himoyalangan"
+  },
+  "activities": {
+    "swimming_pool": "Basseyn",
+    "spa": "Spa",
+    "disco_bar": "Diskobar",
+    "restaurant": "Restoran",
+    "billiards": "Bilyard",
+    "kids_playground": "Bolalar maydonchasi",
+    "content": {
+      "swimming_pool": "Bizning hashamatli basseynimizda tetiklantiruvchi cho'milishdan rohatlaning.",
+      "spa": "Turli xil muolajalar bilan spa markazimizda dam oling va tetiklaning.",
+      "disco_bar": "Bizning yorqin diskobarda tun bo'yi raqsga tushing.",
+      "restaurant": "Bizning eng yaxshi oshpazlarimiz tayyorlagan ajoyib taomlardan bahramand bo'ling.",
+      "billiards": "Do'stlaringiz bilan bilyard o'yinidan rohatlaning.",
+      "kids_playground": "Bolalaringiz xavfsiz va qiziqarli o'yin maydonchamizda vaqt o'tkazsin."
+    },
+    "date": {
+      "swimming_pool": "Har kuni ochiq: 09:00 dan 21:00 gacha",
+      "spa": "Har kuni ochiq: 10:00 dan 20:00 gacha",
+      "disco_bar": "Har kuni ochiq: 20:00 dan 02:00 gacha",
+      "restaurant": "Har kuni ochiq: 07:00 dan 22:00 gacha",
+      "billiards": "Har kuni ochiq: 10:00 dan 22:00 gacha",
+      "kids_playground": "Har kuni ochiq: 09:00 dan 18:00 gacha"
+    }
+  },
+  "price": {
+    "room_category": {
+      "title": "Xonalar kategoriyasi",
+      "room_type": "Xona turi",
+      "rate": "Narxi (UZS)",
+      "standard_single": "Standart xona (1 kishilik)",
+      "standard_double": "Standart xona (2 kishilik)",
+      "deluxe_single": "Deluxe xona (1 kishilik)",
+      "deluxe_double": "Deluxe xona (2 kishilik)",
+      "executive_suite": "Lyuks xona",
+      "superior_connected": "Bog'langan qulay xona",
+      "accessible_room": "Imkoniyati cheklanganlar uchun xona",
+      "included": "Narx ichiga kontinental nonushta, xona ichida choy/qahva, bepul Wi-Fi, hammom uchun vositalar va har kuni 2 shisha suv kiradi."
+    },
+    "children_policy": {
+      "title": "Bolalar uchun siyosat",
+      "policy_1": "1–12 yoshdagi bolalar mavjud krovatda (maksimal 1 bola) – Bepul",
+      "policy_2": "Chaqaloq krovat (maksimal 1 xona uchun) – Bepul",
+      "policy_3": "Qo'shimcha krovat: 350,000 UZS",
+      "policy_4": "Nonushta qo'shimchasi: 150,000 UZS"
+    },
+    "check_in_out": {
+      "title": "Kirish va chiqish",
+      "check_in": "Kirish vaqti: 15:00",
+      "check_out": "Chiqish vaqti: 12:00",
+      "early_check_in": "Ertalabki kirish (15:00 gacha) yarim kun narxiga tegishli.",
+      "late_check_out": "Kechikkan chiqish (12:00 dan keyin) to'liq yoki yarim kun narxiga tegishli."
+    }
+  }
+}
