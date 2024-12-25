@@ -1,5 +1,5 @@
 <template>
-  <forms-vehicle />
+  <forms-product-create />
 </template>
 
 <script setup lang="ts">

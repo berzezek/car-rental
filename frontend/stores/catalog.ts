@@ -47,7 +47,7 @@ export const useCatalogStore = defineStore('catalogStore', {
         const { public: { apiUrl } } = useRuntimeConfig();
         const { token } = useAuthState();
 
-        const response = await $fetch(`${apiUrl}api/v1/vehicles/`, {
+        const response = await $fetch(`${apiUrl}api/v1/products/`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

@@ -21,11 +21,11 @@
 </template>
 
 <script setup lang="ts">
-import type { ApiResponse, Vehicle } from '~/types/apiResponse';
+import type { ApiResponse, Product } from '~/types/apiResponse';
 
 const props = defineProps<{
   tableHeads: Array<string>,
-  tableData: ApiResponse<Vehicle>
+  tableData: ApiResponse<Product>
 }>();
 
 </script>

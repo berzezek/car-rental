@@ -37,7 +37,13 @@ const username = ref('');
 const password = ref('');
 const errMess = ref('');
 
+const router = useRouter();
+
 const { signIn } = useAuth()
+
+const redirectAfterLogin = () => {
+  return router.currentRoute.value.query.redirect as string || '/dashboard';
+}
 
 const login = async () => {
   if (!username.value || !password.value) {
@@ -49,10 +55,13 @@ const login = async () => {
     await signIn({
       username: username.value,
       password: password.value,
-    }, { callbackUrl: '/dashboard' });
+    }, {callbackUrl: redirectAfterLogin(), external: true});
   } catch (error) {
     console.error('Login failed:', error);
     errMess.value = 'Login failed';
+  } finally {
+    username.value = '';
+    password.value = '';
   }
 };
 
