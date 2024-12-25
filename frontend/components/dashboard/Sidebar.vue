@@ -12,8 +12,8 @@
           </div>
         </div>
         <div class="ms-3">
-          <h6 class="mb-0">Jhon Doe</h6>
-          <span>Admin</span>
+          <h6 class="mb-0">{{ data?.username }}</h6>
+          <!-- <span>Admin</span> -->
         </div>
       </div>
       <div class="navbar-nav w-100">
@@ -46,3 +46,8 @@
   </div>
   <!-- Sidebar End -->
 </template>
+
+<script setup lang="ts">
+const { data } = useAuth();
+
+</script>

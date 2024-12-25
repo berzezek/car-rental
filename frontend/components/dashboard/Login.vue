@@ -12,7 +12,7 @@
             <h3>Sign In</h3>
           </div>
           <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="John" v-model="username">
+            <input type="email" class="form-control" id="floatingInput" placeholder="Username" v-model="username">
             <label for="floatingInput">Username</label>
           </div>
           <div class="form-floating mb-4">

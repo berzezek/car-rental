@@ -84,5 +84,10 @@ export default defineNuxtConfig({
       cookieSecure: false,
       alwaysRedirect: false,
     }
+  },
+  router: {
+    options: {
+      scrollBehaviorType: 'smooth'
+    }
   }
 })
