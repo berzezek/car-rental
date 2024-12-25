@@ -28,7 +28,7 @@
             </div>
           </div>
           <div class="col-lg-5 offset-lg-1 col-md-12">
-            <div class="item"> <img src="/assets/img/about.jpg" class="img-fluid" alt="">
+            <div class="item"> <img src="/assets/img/sunny/11.webp" class="img-fluid" alt="">
               <div class="curv-butn icon-bg">
                 <!-- <a href="https://youtu.be/1LxcTt1adfY" class="vid">
                   <div class="icon"> <i class="ti-control-play"></i> </div>

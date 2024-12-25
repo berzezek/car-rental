@@ -1,6 +1,6 @@
 <template>
   <div>
-    <aside data-scroll-index="0" class="kenburns-section" id="kenburnsSliderContainer" data-overlay-dark="5">
+    <aside data-scroll-index="0" class="kenburns-section" id="kenburnsSliderContainer" data-overlay-dark="4">
     </aside>
     <div class="kenburns-inner">
       <div class="caption">
@@ -19,6 +19,27 @@
 
 <script setup lang="ts">
 
+const props = defineProps<{
+  slidesImage: { src: string }[];
+}>();
+
+
+const slider = () => {
+  //@ts-ignore
+  $('#kenburnsSliderContainer').vegas({
+    slides: props.slidesImage,
+    overlay: true,
+    transition: 'fade2',
+    animation: 'kenburnsUpLeft',
+    transitionDuration: 1000,
+    delay: 10000,
+    animationDuration: 20000,
+  });
+};
+
+onMounted(() => {
+  slider();
+});
 
 </script>
 

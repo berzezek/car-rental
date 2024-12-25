@@ -15,7 +15,7 @@ const logout = async () => {
   try {
     deleteCookie(runtimeConfig.public.access);
     deleteCookie(runtimeConfig.public.refresh);
-    router.push('/dashboard');
+    await router.push('/auth/login');
   } catch (error) {
     console.error('Logout failed:', error);
   }

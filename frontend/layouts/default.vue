@@ -103,10 +103,10 @@ useHead({
 			src: '/assets/js/custom.js',
 			tagPosition: 'head'
 		},
-		{
-			src: '/assets/js/vegas-slider-kenburns.js',
-			tagPosition: 'head'
-		},
+		// {
+		// 	src: '/assets/js/vegas-slider-kenburns.js',
+		// 	tagPosition: 'head'
+		// },
 		{
 			src: '//code.jivo.ru/widget/BeulQfiste',
 			tagPosition: 'head'

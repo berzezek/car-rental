@@ -20,9 +20,9 @@ export default defineNuxtConfig({
     provider: {
       type: 'local',
       endpoints: {
-        signIn: { path: 'api/token/', method: 'post' },
+        signIn: { path: 'auth/jwt/create/', method: 'post' },
         signOut: false,
-        getSession: { path: 'api/session/', method: 'get' },
+        getSession: { path: 'auth/users/me/', method: 'get' },
       },
       token: {
         signInResponseTokenPointer: '/access',
@@ -31,7 +31,7 @@ export default defineNuxtConfig({
       },
       refresh: {
         isEnabled: true,
-        endpoint: { path: 'api/token/refresh/', method: 'post' },
+        endpoint: { path: 'auth/jwt/refresh/', method: 'post' },
         token: {
           signInResponseRefreshTokenPointer: '/refresh',
           refreshRequestTokenPointer: '/refresh',

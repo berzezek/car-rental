@@ -3,7 +3,7 @@
 		<main-loader v-if="isLoading" />
 		<div v-cloak>
 			<div>
-				<main-slide />
+				<main-slide :slidesImage="slidesImage" />
 				<main-about />
 				<!-- <main-service /> -->
 				<main-search />
@@ -24,6 +24,12 @@
 <script setup lang="ts">
 
 const isLoading = ref(true)
+
+const slidesImage = [
+	{ src: '/assets/img/sunny/1.webp' },
+	{ src: '/assets/img/sunny/2.webp' },
+	{ src: '/assets/img/sunny/3.webp' }
+]
 
 onMounted(() => {
 	setTimeout(() => {
