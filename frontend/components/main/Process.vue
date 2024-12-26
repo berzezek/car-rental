@@ -10,7 +10,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-4 mb-30">
-					<div class="item">
+					<div class="item" @click="goToUrl('/rooms')">
 						<div class="text">
 							<h5>{{ $t('process.choose_a_product') }}</h5>
 							<p>{{ $t('process.choose_a_product_desc') }}</p>
@@ -35,7 +35,7 @@
 					</div>
 				</div>
 				<div class="col-md-4 mb-30">
-					<div class="item">
+					<div class="item" @click="goToUrl('/#contact')">
 						<div class="text">
 							<h5>{{ $t('process.come_in_contact') }}</h5>
 							<p>{{ $t('process.come_in_contact_desc') }}</p>
@@ -60,7 +60,7 @@
 					</div>
 				</div>
 				<div class="col-md-4 mb-30">
-					<div class="item">
+					<div class="item" @click="goToUrl('https://maps.google.com/maps?ll=41.516724,69.973838&z=15&t=m&hl=en&gl=UZ&mapclient=embed&cid=99159389175023363')">
 						<div class="text">
 							<h5>{{ $t('process.enjoy_driving') }}</h5>
 							<p>{{ $t('process.enjoy_driving_desc') }}</p>
@@ -93,3 +93,31 @@
 		</div>
 	</section>
 </template>
+
+<script setup lang="ts">
+
+const localePath = useLocalePath()
+const router = useRouter()
+
+const goToUrl = (url: string) => {
+	// Проверяем, является ли URL внутренним маршрутом
+	if (url === '/rooms' || url === '/#contact') {
+		// Выполняем внутреннюю навигацию
+		router.push(localePath(url))
+	} else {
+		// Открываем внешний URL в новом окне
+		window.open(url, '_blank')
+	}
+}
+
+</script>
+
+<style scoped>
+.item {
+	cursor: pointer !important;
+}
+
+.item:hover {
+	background-color: #28808E;
+}
+</style>

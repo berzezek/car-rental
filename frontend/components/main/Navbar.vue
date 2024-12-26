@@ -62,9 +62,10 @@ const availableLocales = computed(() => {
 
 // Список ссылок для навигации
 const links = [
-  { id: 'home', to: '/#top', label: 'navbar.home' },
+  { id: 'home', to: '/', label: 'navbar.home' },
   { id: 'about', to: '/#about', label: 'navbar.about' },
   { id: 'activities', to: '/activities', label: 'navbar.activity' },
+  { id: 'rooms', to: '/rooms', label: 'navbar.rooms' },
   { id: 'process', to: '/#process', label: 'navbar.process' },
   { id: 'price', to: '/price', label: 'navbar.price' },
   { id: 'contact', to: '/#contact', label: 'navbar.contact' }
