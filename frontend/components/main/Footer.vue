@@ -88,7 +88,9 @@
           <div class="col-md-4 widget-area">
             <div class="widget clearfix">
               <h3 class="widget-title">{{ $t('footer.map') }}</h3>
-              <iframe :src="mapSrc" width="400" height="200" style="border:0;" allowfullscreen></iframe>
+              <div style="width: 100%; max-width: 600px; height: auto;">
+                <iframe :src="mapSrc" width="100%" height="200" style="border: 0;" allowfullscreen></iframe>
+              </div>
             </div>
           </div>
         </div>

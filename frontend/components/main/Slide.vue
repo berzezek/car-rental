@@ -23,11 +23,18 @@ const props = defineProps<{
   slidesImage: { src: string }[];
 }>();
 
+// Функция для случайной сортировки массива
+const shuffleArray = (array: { src: string }[]) => {
+  return array.sort(() => Math.random() - 0.5);
+};
 
 const slider = () => {
+  // Перемешиваем слайды
+  const shuffledSlides = shuffleArray(props.slidesImage);
+
   //@ts-ignore
   $('#kenburnsSliderContainer').vegas({
-    slides: props.slidesImage,
+    slides: shuffledSlides,
     overlay: true,
     transition: 'fade2',
     animation: 'kenburnsUpLeft',
@@ -40,7 +47,6 @@ const slider = () => {
 onMounted(() => {
   slider();
 });
-
 </script>
 
 <style>
