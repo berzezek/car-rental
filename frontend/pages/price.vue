@@ -49,6 +49,7 @@
 </template>
 
 <script setup lang="ts">
+const { $amplitude } = useNuxtApp();
 
 const { finalizePendingLocaleChange } = useI18n();
 const isLoading = ref(true);
@@ -76,6 +77,7 @@ const slides = [
 ]
 
 onMounted(async () => {
+  $amplitude.track('Enter Price Page');
   await finalizePendingLocaleChange();
 
   // Инициализация Vegas Slider

@@ -22,6 +22,7 @@
 </template>
 
 <script setup lang="ts">
+const { $amplitude } = useNuxtApp();
 
 const isLoading = ref(true)
 
@@ -32,6 +33,7 @@ const slidesImage = [
 ]
 
 onMounted(() => {
+	$amplitude.track('Enter Home Page')
 	setTimeout(() => {
 		isLoading.value = false
 	}, 1000)
