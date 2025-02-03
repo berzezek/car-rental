@@ -81,6 +81,7 @@ onMounted(async () => {
   await finalizePendingLocaleChange();
 
   // Инициализация Vegas Slider
+  // @ts-ignore
   $(document).ready(() => {
     // @ts-ignore
     $('#kenburnsSliderContainer').vegas({
