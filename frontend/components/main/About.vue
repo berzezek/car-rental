@@ -7,7 +7,8 @@
           <div class="col-lg-6 col-md-12 mb-30">
             <div class="content">
               <div class="section-subtitle">{{ $t('common.company_title') }}</div>
-              <div class="section-title">{{ $t('about.company_subtitle_1') }} <span>{{ $t('about.company_subtitle_2') }}</span>
+              <div class="section-title">{{ $t('about.company_subtitle_1') }} <span>{{ $t('about.company_subtitle_2')
+                  }}</span>
               </div>
               <p class="mb-30">{{ $t('about.company_subtitle_3') }}</p>
               <ul class="list-unstyled list mb-30">
@@ -23,12 +24,11 @@
                     <p>{{ $t('about.activity_2') }}</p>
                   </div>
                 </li>
-              </ul> <a href="" class="button-4">{{ $t('common.read_more') }}<span
-                  class="ti-arrow-top-right"></span></a>
+              </ul> <a href="" class="button-4">{{ $t('common.read_more') }}<span class="ti-arrow-top-right"></span></a>
             </div>
           </div>
           <div class="col-lg-5 offset-lg-1 col-md-12">
-            <div class="item"> <img src="/assets/img/sunny/11.webp" class="img-fluid" alt="">
+            <div class="item"> <img src="/assets/img/new/about.webp" class="img-fluid" alt="">
               <div class="curv-butn icon-bg">
                 <!-- <a href="https://youtu.be/1LxcTt1adfY" class="vid">
                   <div class="icon"> <i class="ti-control-play"></i> </div>

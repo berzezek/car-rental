@@ -1,26 +1,21 @@
 <template>
   <div>
-    <main-loader v-if="isLoading"/>
-
-    <div>
-      <main-slide :slidesImage="slidesImage"/>
-      <activities-main />
-    </div>
+    <main-slide :slidesImage="slidesImage" />
+    <activities-main />
   </div>
 </template>
 
 <script setup lang="ts">
-const isLoading = ref(true)
+const { $amplitude } = useNuxtApp()
 const slidesImage = [
-  { src: '/assets/img/sunny/4.webp' },
-  { src: '/assets/img/sunny/5.webp' },
-  { src: '/assets/img/sunny/6.webp' }
+  { src: '/assets/img/new/main_1.webp' },
+  { src: '/assets/img/new/main_2.webp' },
+  { src: '/assets/img/new/main_3.webp' }
 ]
 
 onMounted(() => {
-  setTimeout(() => {
-    isLoading.value = false
-  }, 1000)
+  $amplitude.track("Enter Activities Page")
+  $amplitude.logEvent('activities_page_viewed')
 })
 </script>
 

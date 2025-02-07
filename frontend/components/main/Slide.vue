@@ -1,14 +1,18 @@
 <template>
   <div>
-    <aside data-scroll-index="0" class="kenburns-section" id="kenburnsSliderContainer" data-overlay-dark="4">
-    </aside>
-    <div class="kenburns-inner">
-      <div class="caption">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <h1>{{ $t('common.company_title_part1') }} {{ $t('common.company_title_part2') }}</h1>
-              <h5>{{ $t('common.company_description') }}</h5>
+    <main-loader v-if="isLoading" />
+
+    <div v-cloak>
+      <aside data-scroll-index="0" class="kenburns-section" id="kenburnsSliderContainer" data-overlay-dark="4">
+      </aside>
+      <div class="kenburns-inner">
+        <div class="caption">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h1>{{ $t('common.company_title_part1') }} {{ $t('common.company_title_part2') }}</h1>
+                <h5>{{ $t('common.company_description') }}</h5>
+              </div>
             </div>
           </div>
         </div>
@@ -18,6 +22,8 @@
 </template>
 
 <script setup lang="ts">
+
+const isLoading = ref(true);
 
 const props = defineProps<{
   slidesImage: { src: string }[];
@@ -46,7 +52,11 @@ const slider = () => {
 
 onMounted(() => {
   slider();
+  setTimeout(() => {
+    isLoading.value = false;
+  }, 2500);
 });
+
 </script>
 
 <style>

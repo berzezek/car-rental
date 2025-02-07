@@ -29,7 +29,7 @@
                   </div>
                 </div>
                 <a class="img" :href="productDetail(product.id)">
-                  <img :src="product.photos?.[0]?.thumbnail || '/assets/img/placeholder.jpg'" :alt="product.title"
+                  <img :src="product.photos?.[0]?.thumbnail || '/assets/img/placeholder.webp'" :alt="product.title"
                     class="img-fluid">
                   <div class="bottom-fade"></div>
                   <div class="arrow"> <i class="ti-arrow-right"></i> </div>

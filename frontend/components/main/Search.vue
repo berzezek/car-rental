@@ -1,7 +1,7 @@
 <template>
   <!-- Booking Search -->
   <section id="bookingseach" data-scroll-index="1" class="background bg-img bg-fixed section-padding"
-    data-overlay-dark="5" data-background="/assets/img/sunny/12.webp">
+    data-overlay-dark="5" data-background="/assets/img/new/search.webp">
     <div class="container h-5">
       <div class="booking-inner clearfix">
       </div>

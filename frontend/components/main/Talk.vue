@@ -1,6 +1,6 @@
 <template>
   <section class="lets-talk bg-img bg-fixed section-padding" data-overlay-dark="5"
-    data-background="/assets/img/sunny/13.webp">
+    data-background="/assets/img/new/talk.webp">
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">

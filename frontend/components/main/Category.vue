@@ -12,7 +12,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="owl-carousel owl-theme">
-              <div class="item"> <img src="/assets/img/cars/03.jpg" class="img-fluid" alt="">
+              <div class="item"> <img src="/assets/img/cars/03.webp" class="img-fluid" alt="">
                 <div class="title">
                   <h4>Luxury Cars</h4>
                 </div>
@@ -36,7 +36,7 @@
                   </div>
                 </div>
               </div>
-              <div class="item"> <img src="/assets/img/cars/04.jpg" class="img-fluid" alt="">
+              <div class="item"> <img src="/assets/img/cars/04.webp" class="img-fluid" alt="">
                 <div class="title">
                   <h4>Sport Cars</h4>
                 </div>
@@ -60,7 +60,7 @@
                   </div>
                 </div>
               </div>
-              <div class="item"> <img src="/assets/img/cars/02.jpg" class="img-fluid" alt="">
+              <div class="item"> <img src="/assets/img/cars/02.webp" class="img-fluid" alt="">
                 <div class="title">
                   <h4>SUV</h4>
                 </div>
@@ -84,7 +84,7 @@
                   </div>
                 </div>
               </div>
-              <div class="item"> <img src="/assets/img/cars/01.jpg" class="img-fluid" alt="">
+              <div class="item"> <img src="/assets/img/cars/01.webp" class="img-fluid" alt="">
                 <div class="title">
                   <h4>Convertible</h4>
                 </div>
@@ -108,7 +108,7 @@
                   </div>
                 </div>
               </div>
-              <div class="item"> <img src="/assets/img/cars/05.jpg" class="img-fluid" alt="">
+              <div class="item"> <img src="/assets/img/cars/05.webp" class="img-fluid" alt="">
                 <div class="title">
                   <h4>Sedan</h4>
                 </div>
@@ -132,7 +132,7 @@
                   </div>
                 </div>
               </div>
-              <div class="item"> <img src="/assets/img/cars/06.jpg" class="img-fluid" alt="">
+              <div class="item"> <img src="/assets/img/cars/06.webp" class="img-fluid" alt="">
                 <div class="title">
                   <h4>Small Cars</h4>
                 </div>

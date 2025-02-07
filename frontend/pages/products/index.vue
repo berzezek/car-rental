@@ -83,7 +83,7 @@
             <div class="row">
               <div class="col-lg-6 col-md-12 mb-30">
                 <div class="item">
-                  <figure><img src="/assets/img/slider/7.jpg" alt="" class="img-fluid"></figure>
+                  <figure><img src="/assets/img/slider/7.webp" alt="" class="img-fluid"></figure>
                   <div class="content">
                     <div class="cont">
                       <h3>Lamborghini Urus</h3>
@@ -110,7 +110,7 @@
               </div>
               <div class="col-lg-6 col-md-12 mb-30">
                 <div class="item">
-                  <figure> <img src="/assets/img/slider/8.jpg" alt="" class="img-fluid"> </figure>
+                  <figure> <img src="/assets/img/slider/8.webp" alt="" class="img-fluid"> </figure>
                   <div class="content">
                     <div class="cont">
                       <h3>Aston Martin DBX</h3>
@@ -137,7 +137,7 @@
               </div>
               <div class="col-lg-6 col-md-12 mb-30">
                 <div class="item">
-                  <figure><img src="/assets/img/slider/9.jpg" alt="" class="img-fluid"></figure>
+                  <figure><img src="/assets/img/slider/9.webp" alt="" class="img-fluid"></figure>
                   <div class="content">
                     <div class="cont">
                       <h3>Bugatti Mistral W16</h3>
@@ -164,7 +164,7 @@
               </div>
               <div class="col-lg-6 col-md-12 mb-30">
                 <div class="item">
-                  <figure> <img src="/assets/img/slider/11.jpg" alt="" class="img-fluid"> </figure>
+                  <figure> <img src="/assets/img/slider/11.webp" alt="" class="img-fluid"> </figure>
                   <div class="content">
                     <div class="cont">
                       <h3>Bentley Bentayga</h3>
@@ -191,7 +191,7 @@
               </div>
               <div class="col-lg-6 col-md-12 mb-30">
                 <div class="item">
-                  <figure><img src="/assets/img/slider/12.jpg" alt="" class="img-fluid"></figure>
+                  <figure><img src="/assets/img/slider/12.webp" alt="" class="img-fluid"></figure>
                   <div class="content">
                     <div class="cont">
                       <h3>Rolls Royce Cullinan</h3>
@@ -218,7 +218,7 @@
               </div>
               <div class="col-lg-6 col-md-12 mb-30">
                 <div class="item">
-                  <figure> <img src="/assets/img/slider/13.jpg" alt="" class="img-fluid"> </figure>
+                  <figure> <img src="/assets/img/slider/13.webp" alt="" class="img-fluid"> </figure>
                   <div class="content">
                     <div class="cont">
                       <h3>Bentley Continental</h3>

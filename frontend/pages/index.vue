@@ -1,21 +1,18 @@
 <template>
 	<div>
-		<main-loader v-if="isLoading" />
-		<div v-cloak>
-			<div>
-				<main-slide :slidesImage="slidesImage" />
-				<main-about />
-				<!-- <main-service /> -->
-				<main-search />
-				<!-- <main-products :products="availableRooms" /> -->
-				<!-- <main-category /> -->
-				<main-process />
-				<main-video />
-				<!-- <main-client /> -->
-				<main-faq />
-				<!-- <main-blog /> -->
-				<main-talk />
-			</div>
+		<div>
+			<main-slide :slidesImage="slidesImage" />
+			<main-about />
+			<!-- <main-service /> -->
+			<main-search />
+			<!-- <main-products :products="availableRooms" /> -->
+			<!-- <main-category /> -->
+			<main-process />
+			<main-video />
+			<!-- <main-client /> -->
+			<main-faq />
+			<!-- <main-blog /> -->
+			<main-talk />
 		</div>
 	</div>
 
@@ -24,20 +21,11 @@
 <script setup lang="ts">
 const { $amplitude } = useNuxtApp();
 
-const isLoading = ref(true)
-
 const slidesImage = [
-	{ src: '/assets/img/sunny/1.webp' },
-	{ src: '/assets/img/sunny/2.webp' },
-	{ src: '/assets/img/sunny/3.webp' }
+  { src: "/assets/img/new/main_1.webp" },
+  { src: "/assets/img/new/main_2.webp" },
+  { src: "/assets/img/new/main_3.webp" }
 ]
-
-onMounted(() => {
-	$amplitude.track('Enter Home Page')
-	setTimeout(() => {
-		isLoading.value = false
-	}, 1000)
-})
 
 const availableRooms = {
 	count: 5,
@@ -203,5 +191,10 @@ const availableRooms = {
 		}
 	]
 }
+
+onMounted(() => {
+	$amplitude.track('Enter Home Page')
+	$amplitude.logEvent('home_page_viewed')
+})
 
 </script>

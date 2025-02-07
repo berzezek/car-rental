@@ -2,7 +2,7 @@
 	<header class="header slider-fade">
 		<div class="owl-carousel owl-theme">
 			<!-- Первый слайд -->
-			<div class="item bg-img" data-overlay-dark="5" data-background="/assets/img/slider/11.jpg">
+			<div class="item bg-img" data-overlay-dark="5" data-background="/assets/img/slider/11.webp">
 				<div class="v-middle caption">
 					<div class="container">
 						<div class="row">
@@ -24,7 +24,7 @@
 				</div>
 			</div>
 			<!-- Второй слайд -->
-			<div class="item bg-img" data-overlay-dark="5" data-background="/assets/img/slider/12.jpg">
+			<div class="item bg-img" data-overlay-dark="5" data-background="/assets/img/slider/12.webp">
 				<div class="v-middle caption">
 					<div class="container">
 						<div class="row">
@@ -46,7 +46,7 @@
 				</div>
 			</div>
 			<!-- Третий слайд -->
-			<div class="item bg-img" data-overlay-dark="5" data-background="/assets/img/slider/14.jpg">
+			<div class="item bg-img" data-overlay-dark="5" data-background="/assets/img/slider/14.webp">
 				<div class="v-middle caption">
 					<div class="container">
 						<div class="row">

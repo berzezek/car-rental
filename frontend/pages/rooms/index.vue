@@ -9,7 +9,7 @@
             <div class="row">
               <div class="col-lg-6 col-md-12 mb-30">
                 <div class="item">
-                  <figure><img src="/assets/img/rooms/standart/1.jpg" alt="" class="img-fluid"></figure>
+                  <figure><img src="/assets/img/new/room_1.webp" alt="" class="img-fluid"></figure>
                   <div class="content">
                     <div class="cont">
                       <h3>Standart</h3>
@@ -28,7 +28,7 @@
               </div>
               <div class="col-lg-6 col-md-12 mb-30">
                 <div class="item">
-                  <figure> <img src="/assets/img/rooms/standart/2.jpg" alt="" class="img-fluid"> </figure>
+                  <figure> <img src="/assets/img/new/room_2.webp" alt="" class="img-fluid"> </figure>
                   <div class="content">
                     <div class="cont">
                       <h3>VIP</h3>
@@ -55,11 +55,18 @@
 </template>
 
 <script setup lang="ts">
+const { $amplitude } = useNuxtApp();
+
 const slidesImage = [
-  { src: '/assets/img/rooms/standart/1.jpg' },
-  { src: '/assets/img/rooms/standart/2.jpg' },
-  { src: '/assets/img/rooms/standart/3.jpg' }
+  { src: '/assets/img/new/room_1.webp' },
+  { src: '/assets/img/new/room_2.webp' },
+  { src: '/assets/img/new/room_3.webp' }
 ]
+
+onMounted(() => {
+  $amplitude.track("Enter Rooms Page")
+  $amplitude.logEvent('rooms_page_viewed')
+})
 </script>
 
 <style scoped></style>
