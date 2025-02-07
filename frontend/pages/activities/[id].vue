@@ -15,9 +15,9 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-6 col-md-12 mb-30"> <img src="/assets/img/slider/slide_1.webp" class="rounded-4" alt="">
+          <div class="col-lg-6 col-md-12 mb-30"> <img src="/assets/img/new/main_1.webp" class="rounded-4" alt="">
           </div>
-          <div class="col-lg-6 col-md-12"> <img src="/assets/img/slider/slide_2.webp" class="rounded-4" alt=""> </div>
+          <div class="col-lg-6 col-md-12"> <img src="/assets/img/new/main_2.webp" class="rounded-4" alt=""> </div>
         </div>
       </div>
     </section>
@@ -30,7 +30,7 @@
             <!-- Comment -->
             <div class="col-lg-6 col-md-12">
               <div class="wrap">
-                <div class="user"> <img src="/assets/img/slider/slide_2.webp" alt=""> </div>
+                <div class="user"> <img src="/assets/img/new/main_2.webp" alt=""> </div>
                 <div class="cont">
                   <h6>Olivia Brown &nbsp;&nbsp;<span>29 Dec 2024</span></h6>
                   <p>Lorem ultricies nibh non dolor maximus sceleue inte drana on molisen faubs neque nec tincidunte

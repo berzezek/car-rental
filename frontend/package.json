@@ -15,6 +15,7 @@
     "@pinia/nuxt": "^0.7.0",
     "@sidebase/nuxt-auth": "^0.9.4",
     "nuxt": "^3.14.1592",
+    "robots": "^0.10.1",
     "vue": "latest",
     "vue-router": "latest"
   },
