@@ -12,10 +12,10 @@
   "dependencies": {
     "@amplitude/analytics-browser": "^2.11.11",
     "@nuxtjs/i18n": "^9.1.0",
+    "@nuxtjs/robots": "^5.2.2",
     "@pinia/nuxt": "^0.7.0",
     "@sidebase/nuxt-auth": "^0.9.4",
     "nuxt": "^3.14.1592",
-    "robots": "^0.10.1",
     "vue": "latest",
     "vue-router": "latest"
   },

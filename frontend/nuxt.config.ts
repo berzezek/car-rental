@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: ['@pinia/nuxt', '@sidebase/nuxt-auth', '@nuxtjs/i18n'],
+  modules: ['@pinia/nuxt', '@sidebase/nuxt-auth', '@nuxtjs/i18n', '@nuxtjs/robots'],
   nitro: {
     preset: 'static',
   },
@@ -89,5 +89,13 @@ export default defineNuxtConfig({
     options: {
       scrollBehaviorType: 'smooth'
     }
+  },
+  robots: {
+    rules: [
+      {
+        UserAgent: '*',
+        Disallow: ['/dashboard/', '/auth/'],
+      },
+    ],
   },
 })
